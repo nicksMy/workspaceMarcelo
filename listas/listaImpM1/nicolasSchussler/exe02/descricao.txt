@@ -1,0 +1,8 @@
+Bruno Napoleão A. M. & Nicolas Schüssler G. - 10/09/21
+
+Escreva um programa em C# que solicite o último nome de uma pessoa, depois
+solicite sua data de nascimento (valores inteiros). O programa deve retornar à data
+de nascimento e o sobrenome. Crie funções para a leitura dos dados. Crie um
+procedimento que mostre os dados lidos. Para cada dado lido crie uma variável
+específica. O programa deve retornar (mostrar na tela), o nome completo da pessoa
+e sua data de nascimento.

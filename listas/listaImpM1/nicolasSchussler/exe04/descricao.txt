@@ -1,0 +1,6 @@
+Bruno Napoleão A. M. & Nicolas Schüssler G. - 10/09/21
+
+Escreva um programa em C# que solicite 3 valores para o usuário e retorne à
+média ponderada dos valores. Deve ser criada uma função que leia os pesos de
+cada valor. Uma função para ler os valores, uma função para calcular a média
+ponderada e um procedimento para mostrar o resultado.

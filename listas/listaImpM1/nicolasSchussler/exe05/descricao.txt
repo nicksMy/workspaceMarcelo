@@ -1,0 +1,6 @@
+Bruno Napoleão A. M. & Nicolas Schüssler G. - 10/09/21
+
+Escreva um programa em C# que solicite três valores que representem lados de
+um triângulo. Crie uma função para leitura dos valores. O programa deve calcular a
+área do triângulo, crie uma função para este cálculo. Crie um procedimento para
+mostrar o resultado.
