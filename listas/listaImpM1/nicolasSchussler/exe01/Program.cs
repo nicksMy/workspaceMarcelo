@@ -5,7 +5,7 @@ namespace exe01
 {
     class Program
     {
-        // ponto de entreda
+
         static void Main(string[] args) {
             // declaração de variaveis
             String nome, sobreNome;
@@ -27,6 +27,7 @@ namespace exe01
             // atribuição e conversão de entrada
             nomeCompleto = Convert.ToString(Console.ReadLine());    
 
+            // retorno de valor
             return nomeCompleto;
         }
 

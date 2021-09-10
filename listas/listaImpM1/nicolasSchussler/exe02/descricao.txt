@@ -6,3 +6,24 @@ de nascimento e o sobrenome. Crie funções para a leitura dos dados. Crie um
 procedimento que mostre os dados lidos. Para cada dado lido crie uma variável
 específica. O programa deve retornar (mostrar na tela), o nome completo da pessoa
 e sua data de nascimento.
+
+inicio {
+    declarar uma variavel tipo String "nome"
+    declarar uma variavel tipo DateTime "data"
+    criar função pública "leUltimoNome", declarando e utilizando a variavel de tipo String "frase"
+        declarar variavel do tipo String "ultimoNome"
+        exibir a variavel "frase"
+        converter o valor de entrada lido e atribuido a variavel "ultimoNome" para tipo String
+        retornar valor da variavel "ultimoNome"
+    criar função pública "leDataNascimento", declarando e utilizando a variavel de tipo String "frase"
+        declarar variavel do tipo DateTime "dataNascimento"
+        exibir a variavel "frase"
+        converter o valor de entrada lido e atribuido a variavel "dataNascimento" para tipo DateTime
+        retornar valor da variavel "dataNascimento"
+    criar função sem retorno "exibeNomeData", declarando e utilizando a variavel de tipo String "nomeData"
+        exibir a varaivel "nomeData"
+    atribuir o valor da variavel "nome" a função "leUltimoNome", atribuindo o valor de "frase" para "Digite seu último nome"
+    atribuir o valor da variavel "data" a função "leDataNascimento", atribuindo o valor de "frase" para "Digite sua data de nascimento no padrão: DD/MM/AAAA"
+    chamar o procedimento "exibeNomeData"
+}
+fim
