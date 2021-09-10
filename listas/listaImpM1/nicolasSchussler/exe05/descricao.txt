@@ -4,3 +4,21 @@ Escreva um programa em C# que solicite três valores que representem lados de
 um triângulo. Crie uma função para leitura dos valores. O programa deve calcular a
 área do triângulo, crie uma função para este cálculo. Crie um procedimento para
 mostrar o resultado.
+
+inicio {
+    declarar as variaveis "lado01, lado02, lado03, perimetro" como tipo Double
+    criar função pública Double "leLado", declarando e utilizando a variavel "frase" como String
+        exibir o valor da variavel "frase"
+        retornar valor Double lido
+    criar função pública Double "calculaPerimetro", declarando e utilizando as variaveis "lado01, lado02, lado03" como Double
+        declarar a variavel "perimetro" como tipo Double
+        atribuir o valor "((lado1 + lado2 + lado3) / 2)" para a variavel "perimetro"
+        retornar o valor de "perimetro"
+    criar função privada Double "calculaArea", declarando e utilizando as variaveis "lado01, lado02, lado03, perimetro" como Double
+        declarar como Double  a variavel "area" 
+        atribuir a variavel "area" o calculo "Math.Sqrt(perimetro * (perimetro - lado01) * (perimetro - lado02) * (perimetro - lado03))"
+        retonar a valor da variavel "area"
+    criar procedimento publico "mostraMedia", declarando e utilizando a variavel "area" como Double
+        exibir o valor de "area"s
+}
+fim
