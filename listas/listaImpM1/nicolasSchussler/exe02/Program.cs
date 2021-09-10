@@ -21,6 +21,7 @@ namespace exe02
         public static String leUltimoNome (string frase) {
             // declaração de variavel
             String ultimoNome;
+            
             Console.WriteLine(frase);
 
             // atribuição e conversão de entrada

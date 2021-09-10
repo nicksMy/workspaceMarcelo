@@ -6,7 +6,7 @@ namespace exe05
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+        
         }
     }
 }

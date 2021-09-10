@@ -7,7 +7,7 @@ específica. O programa deve retornar (mostrar na tela), o nome completo da pess
 
 inicio {
     declarar duas variaveis do tipo String "nome" e "sobreNome"
-    criar função pública "leNomeInteiro", declarando e utilizando a variavel de tipo String "frase"
+    criar função pública String "leNomeInteiro", declarando e utilizando a variavel de tipo String "frase"
         declarar variavel do tipo String "nomeCompleto"
         exibir a variavel "frase"
         converter o valor de entrada lido e atribuido a variavel "nomeCompleto" para tipo String

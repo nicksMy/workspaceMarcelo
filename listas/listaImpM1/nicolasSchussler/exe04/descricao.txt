@@ -4,3 +4,26 @@ Escreva um programa em C# que solicite 3 valores para o usuário e retorne à
 média ponderada dos valores. Deve ser criada uma função que leia os pesos de
 cada valor. Uma função para ler os valores, uma função para calcular a média
 ponderada e um procedimento para mostrar o resultado.
+
+inicio {
+    declarar as variaveis "nota01, nota02, nota03, media" como tipo Double
+    declarar as variaveis "peso01, peso02, peso03" como tipo Int
+    criar a função pública Double "leNota", declarando e utilizando a variavel "frase" como tipo String
+        exibir o valor da variavel "frase"
+        retornar valor Double lido
+    criar a função pública Double "lePeso", declarando e utilizando a variavel "frase" como tipo String
+        exibir o valor da variavel "frase"
+        retornar valor Double lido
+    criar a função pública Double "calculaMedia"
+        declara as variaveis "somaPeso, mediaPonderada" como tipo Double
+        atribuir a "somaPeso" o valor "(p1 + p2 + p3)"
+        atribuir a "mediaPonderada" o valor "((num01 * p01) + (num02 * p02) + (num03 * p03)) / somaPeso"
+        retornar o valor da variavel "mediaPonderada"
+    criar o procedimento "mostraMedia" com o valor Double de "valorMedia"
+        exibir o valor de "valorMedia"
+    atribuir para a variavel "nota01, nota02, nota03" a função "leNota" e atribuir o valor de "frase" para "Digite sua nota:"
+    atribuir para a variavel "peso01, peso02, peso03" a função "lePeso" e atribuir o valor de "frase" para "Peso da sua nota:"
+    atribuir para a variavel "media" a função "calculaMedia" e atribuir o valor de "num01, num02, num03, p01, p02, p03"
+    utilizar o procedimento "mostraMedia" com o valor "media"
+}
+fim
