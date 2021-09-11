@@ -1,24 +1,24 @@
-Bruno Napoleão A. M. & Nicolas Schüssler G. - 10/09/21
+Bruno Napoleão A. M. & Nicolas Schüssler G. - 11/09/21
 
 Escreva um programa em C# que solicite 3 valores para o usuário e retorne a
 média dos valores. Escreva uma função para leituras dos dados, uma função para o
 cálculo da média e um procedimento para mostrar o resultado.
 
 inicio {
-    declarar as variaveis "num01", "num02" e "num03" como tipo Double
-    criar função publica Double "leValores", declarando e utilizando a variavel de tipo String "frase"
+    declarar as variaveis "num01, num02, num03, valorMedia" como tipo Double
+    criar a função publica Double "leValores", declarando e utilizando a variavel de tipo String "frase"
         exibir a variavel "frase"
-        retornar valor tipo Double
-    criar função publica Double "fazerMedia", declarando e utilizando as variaveis de tipo Double "num01, num02, num03"
+        retornar o valor de entrada convertido para Double
+    criar a função publica Double "fazerMedia", declarando e utilizando as variaveis de tipo Double "valor01, valor02, valor03"
         declarar variavel tipo Double "media"
-        calcular a formula da média "num01 + num02 + num03 / 3"
+        atribuir o valor da variavel "media" para a equação "((valor01 + valor02 + valor03) /3)"
         retornar valor de "media"
-    criação de procedimento "exibeMedia", declarando e utilizando a variavel de tipo Double "resultadoMedia"
+    criar o procedimento "exibeMedia", declarando e utilizando a variavel de tipo Double "resultadoMedia"
         exibir a variavel "resultadoMedia"
-    atribuir o valor da variavel "num01" a função "leValores", atribuindo o valor de "frase" para "Digite um valor:"
-    atribuir o valor da variavel "num02" a função "leValores", atribuindo o valor de "frase" para "Digite um valor:"
-    atribuir o valor da variavel "num03" a função "leValores", atribuindo o valor de "frase" para "Digite um valor:"
-    atribuir o valor da variavel "valorMedia" a função "fazerMedia", atribuido o valor de "valor01, valor02, valor03" para "num01, num02, num03"
+    atribuir o valor da variavel "num01" para a função "leValores", atribuindo o valor de "frase" para "Digite um valor"
+    atribuir o valor da variavel "num02" para a função "leValores", atribuindo o valor de "frase" para "Digite um valor"
+    atribuir o valor da variavel "num03" para a função "leValores", atribuindo o valor de "frase" para "Digite um valor"
+    atribuir o valor da variavel "valorMedia" para a função "fazerMedia", atribuido o valor de "valor01, valor02, valor03" para "num01, num02, num03"
     utilizar o procedimento "exibeMedia" com o valor de "valorMedia"
 }
 fim

@@ -1,4 +1,4 @@
-Bruno Napoleão A. M. & Nicolas Schüssler G. - 10/09/21
+Bruno Napoleão A. M. & Nicolas Schüssler G. - 11/09/21
 
 Escreva um programa em C# que solicite o primeiro nome de uma pessoa,
 depois o sobrenome. Crie uma função que fará a leitura do dado. Crie um
@@ -10,12 +10,12 @@ inicio {
     criar função pública String "leNomeInteiro", declarando e utilizando a variavel de tipo String "frase"
         declarar variavel do tipo String "nomeCompleto"
         exibir a variavel "frase"
-        converter o valor de entrada lido e atribuido a variavel "nomeCompleto" para tipo String
+        atribuir o valor da variavel "nomeCompleto" para a entrada de dado convertida para tipo String
         retornar valor da variavel "nomeCompleto"
-    criar função pública sem retorno "exibirNomeInteiro, utilizando a variavel "nomeCompleto"
+    criar o procedimento "exibirNomeInteiro, utilizando a variavel "nomeCompleto"
         exibir a variavel "nomeCompleto"
-    atribuir o valor da variavel "nome" a função "leNomeInteiro", atribuindo o valor de "frase" para "Digite seu nome"
-    atribuir o valor da variabel "sobreNome" a função "leNomeInteiro", atribuindo o valor de "frase" para "Digite seu sobrenome"
-    chamar procedimento "exibirNomeInteiro"
+    atribuir o valor da variavel "nome" para a função "leNomeInteiro", atribuindo o valor de "frase" para "Digite seu nome"
+    atribuir o valor da variavel "sobreNome" para a função "leNomeInteiro", atribuindo o valor de "frase" para "Digite seu sobrenome"
+    chamar procedimento "exibirNomeInteiro", atribuindo "$"{nome} {sobreNome}"" para a variavel "nomeCompleto"
 }
 fim

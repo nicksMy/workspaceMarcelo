@@ -1,0 +1,16 @@
+C:\Users\NSPC\Documents\GitHub\workspaceMarcelo\listas\listaImpM1\nicolasSchussler\exe05\obj\Debug\net5.0\exe05.csprojAssemblyReference.cache
+C:\Users\NSPC\Documents\GitHub\workspaceMarcelo\listas\listaImpM1\nicolasSchussler\exe05\obj\Debug\net5.0\exe05.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NSPC\Documents\GitHub\workspaceMarcelo\listas\listaImpM1\nicolasSchussler\exe05\obj\Debug\net5.0\exe05.AssemblyInfoInputs.cache
+C:\Users\NSPC\Documents\GitHub\workspaceMarcelo\listas\listaImpM1\nicolasSchussler\exe05\obj\Debug\net5.0\exe05.AssemblyInfo.cs
+C:\Users\NSPC\Documents\GitHub\workspaceMarcelo\listas\listaImpM1\nicolasSchussler\exe05\obj\Debug\net5.0\exe05.csproj.CoreCompileInputs.cache
+C:\Users\NSPC\Documents\GitHub\workspaceMarcelo\listas\listaImpM1\nicolasSchussler\exe05\bin\Debug\net5.0\exe05.exe
+C:\Users\NSPC\Documents\GitHub\workspaceMarcelo\listas\listaImpM1\nicolasSchussler\exe05\bin\Debug\net5.0\exe05.deps.json
+C:\Users\NSPC\Documents\GitHub\workspaceMarcelo\listas\listaImpM1\nicolasSchussler\exe05\bin\Debug\net5.0\exe05.runtimeconfig.json
+C:\Users\NSPC\Documents\GitHub\workspaceMarcelo\listas\listaImpM1\nicolasSchussler\exe05\bin\Debug\net5.0\exe05.runtimeconfig.dev.json
+C:\Users\NSPC\Documents\GitHub\workspaceMarcelo\listas\listaImpM1\nicolasSchussler\exe05\bin\Debug\net5.0\exe05.dll
+C:\Users\NSPC\Documents\GitHub\workspaceMarcelo\listas\listaImpM1\nicolasSchussler\exe05\bin\Debug\net5.0\ref\exe05.dll
+C:\Users\NSPC\Documents\GitHub\workspaceMarcelo\listas\listaImpM1\nicolasSchussler\exe05\bin\Debug\net5.0\exe05.pdb
+C:\Users\NSPC\Documents\GitHub\workspaceMarcelo\listas\listaImpM1\nicolasSchussler\exe05\obj\Debug\net5.0\exe05.dll
+C:\Users\NSPC\Documents\GitHub\workspaceMarcelo\listas\listaImpM1\nicolasSchussler\exe05\obj\Debug\net5.0\ref\exe05.dll
+C:\Users\NSPC\Documents\GitHub\workspaceMarcelo\listas\listaImpM1\nicolasSchussler\exe05\obj\Debug\net5.0\exe05.pdb
+C:\Users\NSPC\Documents\GitHub\workspaceMarcelo\listas\listaImpM1\nicolasSchussler\exe05\obj\Debug\net5.0\exe05.genruntimeconfig.cache

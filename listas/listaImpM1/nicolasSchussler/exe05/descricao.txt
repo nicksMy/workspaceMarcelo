@@ -1,4 +1,4 @@
-Bruno Napoleão A. M. & Nicolas Schüssler G. - 10/09/21
+Bruno Napoleão A. M. & Nicolas Schüssler G. - 11/09/21
 
 Escreva um programa em C# que solicite três valores que representem lados de
 um triângulo. Crie uma função para leitura dos valores. O programa deve calcular a
@@ -6,19 +6,22 @@ um triângulo. Crie uma função para leitura dos valores. O programa deve calcu
 mostrar o resultado.
 
 inicio {
-    declarar as variaveis "lado01, lado02, lado03, perimetro" como tipo Double
+    declarar as variaveis "lado01, lado02, lado03, valorArea, semiPerimetro" como tipo Double
     criar função pública Double "leLado", declarando e utilizando a variavel "frase" como String
         exibir o valor da variavel "frase"
-        retornar valor Double lido
+        retornar o valor lido e convertido para tipo Double
     criar função pública Double "calculaPerimetro", declarando e utilizando as variaveis "lado01, lado02, lado03" como Double
-        declarar a variavel "perimetro" como tipo Double
-        atribuir o valor "((lado1 + lado2 + lado3) / 2)" para a variavel "perimetro"
-        retornar o valor de "perimetro"
-    criar função privada Double "calculaArea", declarando e utilizando as variaveis "lado01, lado02, lado03, perimetro" como Double
-        declarar como Double  a variavel "area" 
-        atribuir a variavel "area" o calculo "Math.Sqrt(perimetro * (perimetro - lado01) * (perimetro - lado02) * (perimetro - lado03))"
+        declarar a variavel "semiPerimetro" como tipo Double
+        atribuir o valor de "semiPerimetro" para a equação "((lado01 + lado02 + lado03) / 2)"
+        retornar o valor da variavel "semiPerimetro"
+    criar função privada Double "calculaArea", declarando e utilizando as variaveis "lado01, lado02, lado03, semiPerimetro" como Double
+        declarar como Double a variavel "area" 
+        atribuir o valor de "area" para a equação "Math.Sqrt(semiPerimetro * (semiPerimetro - lado01) * (semiPerimetro- lado02) * (semiPerimetro - lado03))"
         retonar a valor da variavel "area"
-    criar procedimento publico "mostraMedia", declarando e utilizando a variavel "area" como Double
-        exibir o valor de "area"s
+    criar procedimento publico "exibeArea", declarando e utilizando a variavel "area" como Double
+        exibir o valor de "area"
+    atribuir o valor das variaveis "lado01, lado02, lado03" para a função "leLado" e atribuir o valor de frase para "Digite um lado do triângulo"
+    atribuir o valor da variavel "valorArea" para a função "calculaArea", atribuindo valor de "lado01, lado02, lado03" para "lado01, lado02, lado03"
+    chamar procedimento "exibeArea" utilizando o valor de "area" como "valorArea"
 }
 fim

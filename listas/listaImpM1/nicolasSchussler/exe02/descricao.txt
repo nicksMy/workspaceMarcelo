@@ -1,4 +1,4 @@
-Bruno Napoleão A. M. & Nicolas Schüssler G. - 10/09/21
+Bruno Napoleão A. M. & Nicolas Schüssler G. - 11/09/21
 
 Escreva um programa em C# que solicite o último nome de uma pessoa, depois
 solicite sua data de nascimento (valores inteiros). O programa deve retornar à data
@@ -13,14 +13,14 @@ inicio {
     criar função pública String "leUltimoNome", declarando e utilizando a variavel de tipo String "frase"
         declarar variavel do tipo String "ultimoNome"
         exibir a variavel "frase"
-        converter o valor de entrada lido e atribuido a variavel "ultimoNome" para tipo String
+        atribuir o valor da variavel "ultimoNome" para a entrada de dado convertida para tipo String
         retornar valor da variavel "ultimoNome"
     criar função pública DateTime "leDataNascimento", declarando e utilizando a variavel de tipo String "frase"
         declarar variavel do tipo DateTime "dataNascimento"
         exibir a variavel "frase"
-        converter o valor de entrada lido e atribuido a variavel "dataNascimento" para tipo DateTime
+        atribuir o valor da variavel "dataNascimento" para a entrada de dado convertida para tipo DateTime
         retornar valor da variavel "dataNascimento"
-    criação de procedimento "exibeNomeData", declarando e utilizando a variavel de tipo String "nomeData"
+    criar o procedimento "exibeNomeData", declarando e utilizando a variavel de tipo String "nomeData"
         exibir a variavel "nomeData"
     atribuir o valor da variavel "nome" a função "leUltimoNome", atribuindo o valor de "frase" para "Digite seu último nome"
     atribuir o valor da variavel "data" a função "leDataNascimento", atribuindo o valor de "frase" para "Digite sua data de nascimento no padrão: DD/MM/AAAA"

@@ -1,9 +1,11 @@
-﻿using System;
+﻿// Bruno Napoleão A. M. & Nicolas Schüssler G. - 11/09/21
+using System;
 
 namespace exe02
 {
     class Program
     {
+        // ponto de entrada
         static void Main(string[] args)
         {
             // declaração de variaveis
@@ -17,11 +19,12 @@ namespace exe02
             // chamada de procedimento
             exibeNomeData($"{nome} {data}");
         }
-
+        // criação da função
         public static String leUltimoNome (string frase) {
             // declaração de variavel
             String ultimoNome;
             
+            // escrever linha no console
             Console.WriteLine(frase);
 
             // atribuição e conversão de entrada
@@ -30,10 +33,12 @@ namespace exe02
             // retorno de valor
             return ultimoNome;
         }
-
+        // criação da função
         public static DateTime leDataNascimento (string frase) {
             // declaração de variavel
             DateTime dataNascimento;
+
+            // escrever linha no console
             Console.WriteLine(frase);
 
             // atribuição e conversão de entrada
@@ -42,9 +47,10 @@ namespace exe02
             // retorno de valor
             return dataNascimento;
         }
-
+        // criação de procedimento
         public static void exibeNomeData (string nomeData) {
-            Console.WriteLine($"Seu último nome e sua data de nascimento são: {nomeData}");
+            // escrever linha no console
+            Console.WriteLine($"Seu último nome e sua data de nascimento é: {nomeData}");
         }
     }
 }
