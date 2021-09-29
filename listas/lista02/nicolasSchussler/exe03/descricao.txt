@@ -1,0 +1,10 @@
+Bruno Napoleão A. M. & Nicolas Schüssler G. - 01/10/21
+
+Escreva um programa que receba seis notas e calcule a média de uma pessoa, de
+acordo com as regras e pesos da disciplina, ao final o programa deve imprimir a média final
+e a situação, aprovado ou reprovado, também de acordo com os critérios da disciplina.
+
+inicio {
+    
+}
+fim

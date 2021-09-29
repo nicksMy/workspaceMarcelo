@@ -1,0 +1,11 @@
+Bruno Napoleão A. M. & Nicolas Schüssler G. - 01/10/21
+
+Escreva um algoritmo que receba a idade de uma pessoa atleta e identifique sua
+categoria entre: (i) Infantil A 5-7 anos; (ii) Infantil B 8-10 anos; (iii) Juvenil A 11-13 anos; (iv)
+Juvenil B 14-17 anos; ou (v) Sênior maiores de 18 anos. Ao final, o programa deve mostrar a
+idade lida, a categoria com a faixa etária específica.
+
+inicio {
+    
+}
+fim

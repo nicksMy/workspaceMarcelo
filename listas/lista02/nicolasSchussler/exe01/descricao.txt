@@ -1,0 +1,9 @@
+Bruno Napoleão A. M. & Nicolas Schüssler G. - 01/10/21
+
+Escreva o programa que permita entrar com a idade de uma pessoa e informar se ela é
+menor de idade, ou maior de idade ou acima de 65 anos.
+
+inicio {
+    
+}
+fim

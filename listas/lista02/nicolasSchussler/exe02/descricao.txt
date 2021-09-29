@@ -1,0 +1,9 @@
+Bruno Napoleão A. M. & Nicolas Schüssler G. - 01/10/21
+
+Ler um número e imprimir se ele é igual a 5, a 200, a 400, se está no intervalo entre
+500 e 1000, inclusive, ou se ele está fora dos escopos anteriores.
+
+inicio {
+    
+}
+fim
