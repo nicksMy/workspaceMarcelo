@@ -4,6 +4,24 @@ Escreva o programa que permita entrar com a idade de uma pessoa e informar se el
 menor de idade, ou maior de idade ou acima de 65 anos.
 
 inicio {
-    
+    declarar da variável "idade" como tipo Int
+    criar função pública Int "leIdade"
+        declarar variável "idadeLida" como tipo Int
+        exibir frase solicitando para o usuario inserir sua idade
+        converter e armazenar o valor lido na variável "idadeLida"
+        retornar o valor de "idadeLida"
+    criar procedimento público Int "verificaIdade", declarando "idadeVerifica" como tipo int
+        utilizar estrutura de controle IF, "idadeVerifica" é menor que 18
+            escrever linha "Você é menor de idade"
+        utilizar estrutura de controle ELSE IF, "idadeVerifica" é maior ou igual 18 e menor que 65
+            escrever linha "Você é maior de idade"
+        utilizar estrutura de controle ELSE IF, "idadeVerifica" é maior ou igual 65 e menor que 100
+            escrever linha "Você está na terceira idade"
+        utilizar estrutura de controle ELSE IF, "idadeVerifica" é maior ou igual 100 e menor que 125
+            escrever linha "Você é um(a) anciã(o)"
+        utilizar estrutura de controle ELSE
+            escrever linha "Digite sua idade corretamente"
+    atribuir o valor da variável "idade" para a função "leIdade", inserindo a frase "Digite sua idade:"
+    utilizar o procedimento "verificaIdade", inserindo a variável "idade"
 }
 fim
