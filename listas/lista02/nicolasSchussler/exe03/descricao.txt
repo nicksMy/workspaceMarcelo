@@ -5,6 +5,27 @@ acordo com as regras e pesos da disciplina, ao final o programa deve imprimir a 
 e a situação, aprovado ou reprovado, também de acordo com os critérios da disciplina.
 
 inicio {
-    
+    declarar variaveis "nota01, nota02, nota03, nota04, nota05, nota06, mediaM1, mediaM2, mediaM3" como tipo double
+    criar função pública Double "leNota"
+        declarar variável "notaLida" como tipo Double
+        escrever frase solicitando para inserir sua nota
+        converter e armazenar o dado de entrada na variavel "notaLida"
+        retornar o valor de entrada
+    criar função pública Double "calculaMedia", declarando as variaveis "n01, n02" como tipo Double
+        declarar variável "mediaCalculada" como tipo Double
+        declarar variável "peso01, peso02" como tipo Double
+        calcular a equação da média
+        retornar valor do resultado do calculo
+    criar procedimento público "mediaFinal", declarando as variaveis "m1, m2, m3" como tipo Double
+        declarar variável "mediaFinalCalculada como tipo Double
+        calcular a equação da média final
+        utilizar a estrutura de controle IF, "mediaFinalCalculada" for maior ou igual a 6
+            escrever linha $"Você foi aprovado!\nSua média ficou: {mediaFinalCalculada}"
+        utilizar a estrutura de controle ELSE IF, "mediaFinalCalculada" for menor que 6
+            escrever linha $"Você foi reprovado!\nSua média ficou: {mediFinalCalculada}"
+    atribuir as variaveis "nota01-nota06" a função "leNota", inserindo frase pedindo para digitar a nota
+    atribuir as variaveis "mediaM1, mediaM2, mediaM3", a função "calculaMedia" e suas restropectivas notas
+    utilizar o procedimento "mediaFinal", inserindo as variaveis "mediaM1, mediaM2, mediaM3"
+
 }
 fim
