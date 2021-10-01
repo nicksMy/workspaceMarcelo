@@ -10,7 +10,7 @@ inicio {
         exibir frase solicitando para o usuario inserir sua idade
         converter e armazenar o valor lido na variável "idadeLida"
         retornar o valor de "idadeLida"
-    criar procedimento público Int "verificaIdade", declarando "idadeVerifica" como tipo int
+    criar procedimento público "verificaIdade", declarando "idadeVerifica" como tipo Int
         utilizar estrutura de controle IF, "idadeVerifica" é menor que 18
             escrever linha "Você é menor de idade"
         utilizar estrutura de controle ELSE IF, "idadeVerifica" é maior ou igual 18 e menor que 65

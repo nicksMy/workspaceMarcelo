@@ -4,6 +4,24 @@ Ler um número e imprimir se ele é igual a 5, a 200, a 400, se está no interva
 500 e 1000, inclusive, ou se ele está fora dos escopos anteriores.
 
 inicio {
-    
+    declarar variável "numero" como tipo Double
+    criar função pública Double "leNumero"
+        declarar variável "numeroLido" como tipo Double
+        exibir frase solicitando para o usuario digitar um valor númerico
+        converter e armazenar o valor de entrada na variável "numeroLido"
+        retornar o valor de "numeroLido"
+    criar procedimento público "verificaNumero", declarando "numeroVerifica" como tipo Double
+        utilizar estrutura de controle IF, "numeroVerifica" é igual a 5
+            escrever linha $"Seu número é: {numeroVerifica}"
+        utilizar estrutura de controle ELSE IF, "numeroVerifica" é igual a 200
+            escrever linha $"Seu número é: {numeroVerifica}"
+        utilizar estrutura de controle ELSE IF, "numeroVerifica" é igual a 400
+            escrever linha $"Seu número é: {numeroVerifica}"
+        utilizar estrutura de controle ELSE IF, "numeroVerifica" é maior ou igual a 500 e menor ou igual a 1000
+            escrever linha $"Seu número está entre 500 e 100: {numeroVerifica}"
+        utilizar estrutura de controle ELSE
+            escrever linha "Está fora dos escopos anteriores"
+    atribuir o valor da variável "numero" para a função "leNumero", inserindo a frase "Digite um valor númerico:"
+    utilizar o procedimento "verificaNumero", inserindo a variavel "numero"
 }
 fim
