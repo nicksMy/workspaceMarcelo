@@ -1,0 +1,16 @@
+C:\Users\NSPC\Documents\workspace\workspaceMarcelo\workspaceMarcelo\listas\lista02\nicolasSchussler\exe04\obj\Debug\net5.0\exe04.csprojAssemblyReference.cache
+C:\Users\NSPC\Documents\workspace\workspaceMarcelo\workspaceMarcelo\listas\lista02\nicolasSchussler\exe04\obj\Debug\net5.0\exe04.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NSPC\Documents\workspace\workspaceMarcelo\workspaceMarcelo\listas\lista02\nicolasSchussler\exe04\obj\Debug\net5.0\exe04.AssemblyInfoInputs.cache
+C:\Users\NSPC\Documents\workspace\workspaceMarcelo\workspaceMarcelo\listas\lista02\nicolasSchussler\exe04\obj\Debug\net5.0\exe04.AssemblyInfo.cs
+C:\Users\NSPC\Documents\workspace\workspaceMarcelo\workspaceMarcelo\listas\lista02\nicolasSchussler\exe04\obj\Debug\net5.0\exe04.csproj.CoreCompileInputs.cache
+C:\Users\NSPC\Documents\workspace\workspaceMarcelo\workspaceMarcelo\listas\lista02\nicolasSchussler\exe04\bin\Debug\net5.0\exe04.exe
+C:\Users\NSPC\Documents\workspace\workspaceMarcelo\workspaceMarcelo\listas\lista02\nicolasSchussler\exe04\bin\Debug\net5.0\exe04.deps.json
+C:\Users\NSPC\Documents\workspace\workspaceMarcelo\workspaceMarcelo\listas\lista02\nicolasSchussler\exe04\bin\Debug\net5.0\exe04.runtimeconfig.json
+C:\Users\NSPC\Documents\workspace\workspaceMarcelo\workspaceMarcelo\listas\lista02\nicolasSchussler\exe04\bin\Debug\net5.0\exe04.runtimeconfig.dev.json
+C:\Users\NSPC\Documents\workspace\workspaceMarcelo\workspaceMarcelo\listas\lista02\nicolasSchussler\exe04\bin\Debug\net5.0\exe04.dll
+C:\Users\NSPC\Documents\workspace\workspaceMarcelo\workspaceMarcelo\listas\lista02\nicolasSchussler\exe04\bin\Debug\net5.0\ref\exe04.dll
+C:\Users\NSPC\Documents\workspace\workspaceMarcelo\workspaceMarcelo\listas\lista02\nicolasSchussler\exe04\bin\Debug\net5.0\exe04.pdb
+C:\Users\NSPC\Documents\workspace\workspaceMarcelo\workspaceMarcelo\listas\lista02\nicolasSchussler\exe04\obj\Debug\net5.0\exe04.dll
+C:\Users\NSPC\Documents\workspace\workspaceMarcelo\workspaceMarcelo\listas\lista02\nicolasSchussler\exe04\obj\Debug\net5.0\ref\exe04.dll
+C:\Users\NSPC\Documents\workspace\workspaceMarcelo\workspaceMarcelo\listas\lista02\nicolasSchussler\exe04\obj\Debug\net5.0\exe04.pdb
+C:\Users\NSPC\Documents\workspace\workspaceMarcelo\workspaceMarcelo\listas\lista02\nicolasSchussler\exe04\obj\Debug\net5.0\exe04.genruntimeconfig.cache

@@ -34,18 +34,23 @@ namespace exe01
         static public void verificaIdade (int idadeVerifica) {
             // Se idade for menor que 18 = menor de idade
             if (idadeVerifica < 18) {
+                // Escrever linha
                 Console.WriteLine("Você é menor de idade");
             // Mas se idade for maior ou igual a 18 e menor que 65 = maior de idade
             } else if (idadeVerifica >= 18 && idadeVerifica < 65) {
+                // Escrever linha
                 Console.WriteLine("Você é maior de idade");
             // Mas se idade for maior ou igual a 65 e menor que 100  = terceira idade
             } else if (idadeVerifica >= 65 && idadeVerifica < 100) {
+                // Escrever linha
                 Console.WriteLine("Você está na terceira idade");
             // Mas se idade for maior ou igual a 100 e menor que 125 = anciã(o)
             } else if (idadeVerifica >= 100 && idadeVerifica < 125) {
+                // Escrever linha
                 Console.WriteLine("Você é um(a) anciã(o)");
             // Mas se for diferente das opções acima = errado
             } else {
+                // Escrever linha
                 Console.WriteLine("Digite sua idade corretamente");
             }
         }

@@ -6,6 +6,24 @@ Juvenil B 14-17 anos; ou (v) Sênior maiores de 18 anos. Ao final, o programa de
 idade lida, a categoria com a faixa etária específica.
 
 inicio {
-    
+    declarar variável "idade" como tipo Int
+    criar função pública Int "leIdade"
+        declarar variável "idadeLida" como tipo Int
+        escrever frase solicitando para o atleta digitar sua idade
+        converter e armazenar o valor de entrada na variável "idadeLida"
+        retornar o valor de entrada
+    criar procedimento público "identificaCategoria", declarando "valorIdade" como tipo Int
+        utilizar estrutura de controle IF, "valorIdade" maior ou igual a 5 e menor ou igual a 7
+            escrever linha $"Sua idade é: {valorIdade}\nCategoria I - 5-7 anos"
+        utilizar estrutura de controle ELSE IF, "valorIdade" maior ou igual a 8 e menor ou igual a 10
+            escrever linha $"Sua idade é: {valorIdade}\nCategoria II - 8-10 anos"
+        utilizar estrutura de controle ELSE IF, "valorIdade" maior ou igual a 11 e menor ou igual a 13
+            escrever linha $"Sua idade é: {valorIdade}\nCategoria III - 11-13 anos"
+        utilizar estrutura de controle ELSE IF, "valorIdade" maior ou igual a 14 e menor ou igual a 17
+            escrever linha $"Sua idade é: {valorIdade}\nCategoria IV - 14-17 anos"
+        utilizar estrutura de controle ELSE IF, "valorIdade" maior ou igual a 18
+            escrever linha $"Sua idade é: {valorIdade}\nCategoria V - 18 ou + anos"
+    atribuir o valor da variável "idade" para a função "leIdade", inserindo a frase "Digite sua idade:"
+    utilizar o procedimento "identificaCategoria", inserindo a variavel "idade"
 }
 fim
