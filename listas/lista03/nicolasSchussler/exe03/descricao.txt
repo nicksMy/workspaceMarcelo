@@ -1,0 +1,3 @@
+Bruno Napoleão A. M. & Nicolas Schüssler G. - 08/10/21
+
+Escreva um programa que encontre a soma da série [ x + x^2 + x^3 - x^4 + x^5 -.....].

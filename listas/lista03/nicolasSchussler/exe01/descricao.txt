@@ -1,0 +1,4 @@
+Bruno Napoleão A. M. & Nicolas Schüssler G. - 08/10/21
+
+Escreva um programa que mostre a tabela multiplicativa (tabuada) de um número inteiro fornecido pelo usuário.
+Por exemplo, se o número fornecido for 15, o programa deve mostrar 15 x 1 = 15 [...] 15 x 10 = 150
