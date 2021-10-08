@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\NSPC\\Documents\\workspace\\workspaceMarcelo\\workspaceMarcelo\\listas\\lista03\\nicolasSchussler\\exe01\\exe01.csproj": {}
+    "/home/nicks/Documentos/workspaceMarcelo/workspaceMarcelo-1/listas/lista03/nicolasSchussler/exe01/exe01.csproj": {}
   },
   "projects": {
-    "C:\\Users\\NSPC\\Documents\\workspace\\workspaceMarcelo\\workspaceMarcelo\\listas\\lista03\\nicolasSchussler\\exe01\\exe01.csproj": {
+    "/home/nicks/Documentos/workspaceMarcelo/workspaceMarcelo-1/listas/lista03/nicolasSchussler/exe01/exe01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\NSPC\\Documents\\workspace\\workspaceMarcelo\\workspaceMarcelo\\listas\\lista03\\nicolasSchussler\\exe01\\exe01.csproj",
+        "projectUniqueName": "/home/nicks/Documentos/workspaceMarcelo/workspaceMarcelo-1/listas/lista03/nicolasSchussler/exe01/exe01.csproj",
         "projectName": "exe01",
-        "projectPath": "C:\\Users\\NSPC\\Documents\\workspace\\workspaceMarcelo\\workspaceMarcelo\\listas\\lista03\\nicolasSchussler\\exe01\\exe01.csproj",
-        "packagesPath": "C:\\Users\\NSPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\NSPC\\Documents\\workspace\\workspaceMarcelo\\workspaceMarcelo\\listas\\lista03\\nicolasSchussler\\exe01\\obj\\",
+        "projectPath": "/home/nicks/Documentos/workspaceMarcelo/workspaceMarcelo-1/listas/lista03/nicolasSchussler/exe01/exe01.csproj",
+        "packagesPath": "/home/nicks/.nuget/packages/",
+        "outputPath": "/home/nicks/Documentos/workspaceMarcelo/workspaceMarcelo-1/listas/lista03/nicolasSchussler/exe01/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\NSPC\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/nicks/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
         }
       }
     }

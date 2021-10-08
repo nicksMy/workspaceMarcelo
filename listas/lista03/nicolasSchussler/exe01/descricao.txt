@@ -2,3 +2,20 @@ Bruno Napoleão A. M. & Nicolas Schüssler G. - 08/10/21
 
 Escreva um programa que mostre a tabela multiplicativa (tabuada) de um número inteiro fornecido pelo usuário.
 Por exemplo, se o número fornecido for 15, o programa deve mostrar 15 x 1 = 15 [...] 15 x 10 = 150
+
+inicio {
+    declarar a variavel "numero" como tipo double
+    criar a função pública double "leNumero", com a variavel "frase" tipo string
+        declarar a variavel "numeroLido" como tipo double
+        escrever o valor da variavel "frase"
+        converter e atribuir o valor de entrada para a variavel "numeroLido"
+        retornar o valor da variavel "numeroLido"
+    criar o procedimento double "fazTabuada" para efetuar as equações da tabela, com a variavel "valorNumero" tipo double
+        declarar a variavel "i" como tipo int
+        declarar a variavel "tabuada" como tipo double
+        utilizar a estrutura de repetição (laço) for,  utilizando a condição i = 1; i < 11 ; i++
+            atribuir o valor da variavel "valorNumero" para "tabuada * i"
+            escrever a linha $"{valorNumero} * {i} = {tabuada}"
+    atribuir o valor da variavel "numero" para a função "leNumero" utilizando como frase "Digite um número para efetuar tabuada:"
+    utilizar o procedimento "fazTabuada" utilizando a variavel "numero"
+} fim
