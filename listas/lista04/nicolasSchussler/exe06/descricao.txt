@@ -1,0 +1,11 @@
+Bruno Napoleão A. M. & Nicolas Schüssler G. - 22/10/21
+
+01) Escreva um programa para ler 2 valores e se o segundo valor informado for ZERO, deve
+ser lido um novo valor, ou seja, para o segundo valor não pode ser aceito o valor zero e
+imprimir o resultado da divisão do primeiro valor lido pelo segundo valor lido. Acrescentar
+uma mensagem de 'VALOR INVÁLIDO' caso o segundo valor informado seja ZERO (utilizar
+a estrutura for).
+
+inicio {
+
+} fim

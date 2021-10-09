@@ -1,0 +1,10 @@
+Bruno Napoleão A. M. & Nicolas Schüssler G. - 22/10/21
+
+03) Escreva um programa que, para uma conta bancária, que leia o seu número, o saldo, o
+tipo de operação a ser realizada (depósito ou retirada) e o valor da operação. Após,
+determine e mostre o novo saldo. Se o novo saldo ficar negativo, deve ser mostrada,
+também, a mensagem “conta estourada”.
+
+inicio {
+
+} fim

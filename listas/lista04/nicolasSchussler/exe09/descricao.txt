@@ -1,0 +1,9 @@
+Bruno Napoleão A. M. & Nicolas Schüssler G. - 22/10/21
+
+04) Ler um valor N e imprimir todos os valores inteiros entre 1 (inclusive) e N (inclusive), em
+ordem decrescente. O programa deve aceitar somente valores maiores que 0 para N. Caso
+o valor informado (para N) não seja maior que 0, deverá ser lido um novo valor para N.
+
+inicio {
+
+} fim

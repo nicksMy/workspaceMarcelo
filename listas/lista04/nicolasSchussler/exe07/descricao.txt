@@ -1,0 +1,7 @@
+Bruno Napoleão A. M. & Nicolas Schüssler G. - 22/10/21
+
+02) Reescreva o exercício anterior utilizando a estrutura ENQUANTO (while).
+
+inicio {
+
+} fim

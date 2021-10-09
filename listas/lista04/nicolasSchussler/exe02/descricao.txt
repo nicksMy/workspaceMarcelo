@@ -1,0 +1,16 @@
+Bruno Napoleão A. M. & Nicolas Schüssler G. - 22/10/21
+
+02) Um vendedor precisa de um programa que calcule o preço total devido por um cliente. O
+algoritmo deve receber o código de um produto e a quantidade comprada e calcular o preço
+total, usando a tabela abaixo. Mostre uma mensagem no caso de código inválido. Código
+Preço Unitário 'ABCD' R$ 5,30 'XYPK' R$ 6,00 'KLMP' R$ 3,20 'QRST' R$ 2,50.
+Código Valor
+
+ABCD 100
+XYPK 200
+KLMP 400
+QRST 1000
+
+inicio {
+
+} fim

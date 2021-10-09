@@ -1,0 +1,11 @@
+Bruno Napoleão A. M. & Nicolas Schüssler G. - 22/10/21
+
+03) Escreva um programa para ler uma quantidade de notas qualquer, calcule e imprima a
+média (simples) desse aluno. Só devem ser aceitos valores válidos durante a leitura (0 a 10)
+para cada nota. Mostre a média final. Acrescente uma mensagem 'NOVO CÁLCULO (S/N)?'
+ao final do exercício. Se for respondido 'S' deve retornar e executar um novo cálculo, caso
+contrário deverá encerrar o algoritmo
+
+inicio {
+
+} fim
