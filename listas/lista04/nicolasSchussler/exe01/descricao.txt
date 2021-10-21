@@ -13,27 +13,35 @@ médio, e acima de 601 40% do valor do saldo médio.
 601     +       40%
 
 inicio {
-    declarar variaveis "credito" e "saldoMedioAnual", como tipo double
-
+    declarar variavel "saldoMedioAnual", como tipo double
     criar função pública como tipo double "leSaldoMedio", usando a variavel "frase" como tipo string
-        declarar variavel "saldoLido", "valorCredito" e "creditoEspecial", como tipo double
+        declarar variavel "saldoLido", como tipo double
         escrever linha com o valor da variavel "frase"
         converter e armazenar o dado de entrada na variavel "saldoLido"
-            criar procedimento público "calculaCredito", usando a variavel "saldoLido", "valorCredito"
-                declarar variavel "porcentagem", como tipo double
-                atribuir a variavel "porcentagem" para a expressão (valorCredito / 100)
-                atribuir a variavel "creditoEspecial" para a expressão (porcentagem * saldoLido)
-            utilizar a estrutura de controle IF, caso "saldoLido" seja maior ou igual a 0 e menor ou igual a 200
+        retornar o valor da variavel "saldoLido"
+    criar procedimento público "calculaCredito", usando a variavel "saldoLido" e "valorCredito"
+        declarar variavel "porcentagem", como tipo double
+        atribuir a variavel "porcentagem" para a expressão (valorCredito / 100)
+        atribuir a variavel "valorCredito" para a expressão (porcentagem * saldoLido)
+        retornar o valor da variavel "valorCredito"
+    criar procedimento público "comparaSaldo", usando a variavel "saldo"
+        declarar as variaveis "resultado" e "valorCredito"
+            utilizar a estrutura de controle IF, caso "saldo" seja maior ou igual a 0 e menor ou igual a 200
                 exibir frase afirmando "Você não possui saldo suficiente para crédito especial"
-            utilizar a estrutura de controle ELSE IF, caso "saldoLido" seja maior que 200 e menor ou igual a 400
+            utilizar a estrutura de controle ELSE IF, caso "saldo" seja maior que 200 e menor ou igual a 400
                 atribuir o valor da variavel "valorCredito" para 20
                 atribuir o valor da variavel "creditoEspecial" para o procedimento "calculaCredito", inserir os parametros adequados
-                escrever linha na formatação $"Seu saldo médio: {saldoLido}\nSeu crédito especial: {creditoEspecial}"
-            utilizar a estrutura de controle ELSE IF, caso "saldoLido" seja maior que 400 e menor ou igual a 600
-
-            utilizar a estrutura de controle ELSE if, caso "saldoLido" seja maior que 600
-
+                escrever linha na formatação $"Seu saldo médio: {saldo}\nSeu crédito especial: {valorCredito}"
+            utilizar a estrutura de controle ELSE IF, caso "saldo" seja maior que 400 e menor ou igual a 600
+                atribuir o valor da variavel "valorCredito" para 30
+                atribuir o valor da variavel "creditoEspecial" para o procedimento "calculaCredito", inserir os parametros adequados
+                escrever linha na formatação $"Seu saldo médio: {saldo}\nSeu crédito especial: {valorCredito}"
+            utilizar a estrutura de controle ELSE if, caso "saldo" seja maior que 600
+                atribuir o valor da variavel "valorCredito" para 40
+                atribuir o valor da variavel "creditoEspecial" para o procedimento "calculaCredito", inserir os parametros adequados
+                escrever linha na formatação $"Seu saldo médio: {saldo}\nSeu crédito especial: {valorCredito}"
             utilizar a estrutura de controle ELSE
                 exibir frase afirmando "Seu valor está fora do escopo"
-
+    atribuir o valor da variavel "saldoMedioAnual" para a função "leSaldoMedio", utilizando como frase "Insira seu saldo anual:"
+    efetuar chamada de procedimento "comparadaSaldo", utilizando a variavel "saldoMedioAnual"
 } fim
