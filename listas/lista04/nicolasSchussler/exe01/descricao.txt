@@ -7,6 +7,33 @@ informando o saldo médio e o valor do crédito. Saldo médio Percentual de 0 a 
 crédito, de 201 a 400 20% do valor do saldo médio, de 401 a 600 30% do valor do saldo
 médio, e acima de 601 40% do valor do saldo médio.
 
+0       200     0%
+201     400     20%
+401     600     30%
+601     +       40%
+
 inicio {
+    declarar variaveis "credito" e "saldoMedioAnual", como tipo double
+
+    criar função pública como tipo double "leSaldoMedio", usando a variavel "frase" como tipo string
+        declarar variavel "saldoLido", "valorCredito" e "creditoEspecial", como tipo double
+        escrever linha com o valor da variavel "frase"
+        converter e armazenar o dado de entrada na variavel "saldoLido"
+            criar procedimento público "calculaCredito", usando a variavel "saldoLido", "valorCredito"
+                declarar variavel "porcentagem", como tipo double
+                atribuir a variavel "porcentagem" para a expressão (valorCredito / 100)
+                atribuir a variavel "creditoEspecial" para a expressão (porcentagem * saldoLido)
+            utilizar a estrutura de controle IF, caso "saldoLido" seja maior ou igual a 0 e menor ou igual a 200
+                exibir frase afirmando "Você não possui saldo suficiente para crédito especial"
+            utilizar a estrutura de controle ELSE IF, caso "saldoLido" seja maior que 200 e menor ou igual a 400
+                atribuir o valor da variavel "valorCredito" para 20
+                atribuir o valor da variavel "creditoEspecial" para o procedimento "calculaCredito", inserir os parametros adequados
+                escrever linha na formatação $"Seu saldo médio: {saldoLido}\nSeu crédito especial: {creditoEspecial}"
+            utilizar a estrutura de controle ELSE IF, caso "saldoLido" seja maior que 400 e menor ou igual a 600
+
+            utilizar a estrutura de controle ELSE if, caso "saldoLido" seja maior que 600
+
+            utilizar a estrutura de controle ELSE
+                exibir frase afirmando "Seu valor está fora do escopo"
 
 } fim
