@@ -1,8 +1,25 @@
 Bruno Napoleão A. M. & Nicolas Schüssler G. - 22/10/21
 
 04) Faça um algoritmo que leia um número N e imprima “F1”, “F2” ou “F3”, conforme a
-condição: • “F1”, se N <= 10 • “F2”, se N > 10 e N <= 100 • “F3”, se n > 100.
+condição: 
+• “F1”, se N <= 10
+• “F2”, se N > 10 e N <= 100
+• “F3”, se N > 100.
 
 inicio {
-
+    declarar a varavel "N" como tipo double
+    criar função pública double "leNumero", utilizando a variavel "frase" como tipo string
+        declarar a variavel "numeroLido" como tipo double
+        escrever frase solicitando para que o usuario digite um valor numerico
+        converter e armazenar o valor de entrada na variavel "numeroLido"
+        retornar o dado da varavel "numeroLido"
+    criar procedimento pública "comparaNumero", utilizando a variavel "N"
+        utilizar a estrutura de controle IF, caso o valor de "N" seja menor ou igual a 10
+            escrever linha para usuario, "F1"
+        utilizar a estrutura de controle ELSE IF, caso o valor de "N" seja maior que 10 e menor ou igual a 100
+            escrever linha para usuario, "F2"
+        utilizar a estrutura de controle ELSE IF, caso o valor de "N" seja maior que 100
+            escrever linha para usuario, "F3"
+    atribuir o valor de "N" para a função "leNumero", usando a frase "Digite um valor numerico: "
+    efetuar chamada do procedimento "comparaNumero", utilizando a variavel "N"
 } fim
