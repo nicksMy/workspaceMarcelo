@@ -3,14 +3,26 @@ Bruno Napoleão A. M. & Nicolas Schüssler G. - 22/10/21
 02) Um vendedor precisa de um programa que calcule o preço total devido por um cliente. O
 algoritmo deve receber o código de um produto e a quantidade comprada e calcular o preço
 total, usando a tabela abaixo. Mostre uma mensagem no caso de código inválido. Código
-Preço Unitário 'ABCD' R$ 5,30 'XYPK' R$ 6,00 'KLMP' R$ 3,20 'QRST' R$ 2,50.
+Preço Unitário 'ABCD' R$ 100 'XYPK' R$ 200 'KLMP' R$ 400 'QRST' R$ 1000.
 Código Valor
 
-ABCD 100
-XYPK 200
-KLMP 400
-QRST 1000
+0   ABCD    100
+1   XYPK    200
+2   KLMP    400
+3   QRST    1000
 
 inicio {
+    declarar as variaveis "produto" como tipo string e "quantidade" como tipo int
+    
+    criar função pública string "leProdutoQuantidade", utilizando a variavel "frase" como tipo string
+        declarar as variaveis "valorLido"
+        escrever linha para o usuario digitar o codigo do produto e a quantidade
+        converter e armazenar o valor de entrada na variavel "valorLido"
+        retornar o valor de "valorLido"
+    
+    criar procedimento público "calculaTotal", utilizando as variaveis "produto" e "quantidade"
+        utilizando a estrutura de controle SWITCH
+
+
 
 } fim
