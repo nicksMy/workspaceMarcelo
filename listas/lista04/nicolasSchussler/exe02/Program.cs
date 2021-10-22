@@ -18,15 +18,12 @@ namespace exe02
             Console.WriteLine("KLMP    R$400");
             Console.WriteLine("QRST    R$1000\n");
 
-            /*
-            *
-            * TORNAR UPPER CASE NO ARMAZENAMENTO
-            *
-            */
-
             // Atribuição e chamada de função
             produto = leProduto("Digite o código do produto: ");
             quantidade = leQuantidade("Digite a quantidade do produto:");
+
+            // Alterado para letras maiusculas
+            //produto.ToUpper();
 
             // Chamada de procedimento
             calculaPreco(produto, quantidade);
@@ -65,17 +62,17 @@ namespace exe02
             int preco, total;
 
             // Utilização de estrutura de controle
-            if (produto == "ABCD") {
+            if (produto == "ABCD" || produto == "abcd") {
                 // Atribuição de valor
                 preco = 100;
 
                 // Atribuição de expressão
-                total = preco * quantidade;
+                total = (preco * quantidade);
                 
                 // Escrever linha para usuario
-                Console.WriteLine($"O valor total fica: R${total}");
+                Console.WriteLine($"O valor total fica: R$ {total}");
             // Utilização de estrutura de controle
-            } else if (produto == "XYPK") {
+            } else if (produto == "XYPK" || produto == "xypk") {
                 // Atribuição de valor
                 preco = 200;
 
@@ -83,9 +80,9 @@ namespace exe02
                 total = preco * quantidade;
 
                 // Escrever linha para usuario
-                Console.WriteLine($"O valor total fica: R${total}");
+                Console.WriteLine($"O valor total fica: R$ {total}");
             // Utilização de estrutura de controle
-            } else if (produto == "KLMP") {
+            } else if (produto == "KLMP" || produto == "klmp") {
                 // Atribuição de valor
                 preco = 400;
 
@@ -93,9 +90,9 @@ namespace exe02
                 total = preco * quantidade;
 
                 // Escrever linha para usuario
-                Console.WriteLine($"O valor total fica: R${total}");
+                Console.WriteLine($"O valor total fica: R$ {total}");
             // Utilização de estrutura de controle
-            } else if (produto == "QRST") {
+            } else if (produto == "QRST" || produto == "qrst") {
                 // Atribuição de valor
                 preco = 1000;
 
@@ -103,11 +100,11 @@ namespace exe02
                 total = preco * quantidade;
                 
                 // Escrever linha para usuario
-                Console.WriteLine($"O valor total fica: R${total}");
+                Console.WriteLine($"O valor total fica: R$ {total}");
             // Utilização de estrutura de controle
             } else {
                 // Escrever linha para usuario
-                Console.WriteLine("Digite um código de produto valido.");
+                Console.WriteLine("PRODUTO INVALIDO\nDigite um código de produto valido.");
             }
         }
     }

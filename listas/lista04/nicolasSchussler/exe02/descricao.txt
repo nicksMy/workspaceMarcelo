@@ -13,16 +13,38 @@ Código Valor
 
 inicio {
     declarar as variaveis "produto" como tipo string e "quantidade" como tipo int
-    
-    criar função pública string "leProdutoQuantidade", utilizando a variavel "frase" como tipo string
+    escrever linha no console, mostrando tabela de preços para o usuario
+    criar função pública string "leProduto", utilizando a variavel "frase" como tipo string
+        declarar as variaveis "codigoLido"
+        escrever linha para o usuario digitar o codigo do produto e a quantidade
+        converter e armazenar o valor de entrada na variavel "codigoLido"
+        retornar o valor de "codigoLido"
+    criar função pública int "leQuantidade", utilizando a variavel "frase" como tipo string
         declarar as variaveis "valorLido"
         escrever linha para o usuario digitar o codigo do produto e a quantidade
         converter e armazenar o valor de entrada na variavel "valorLido"
         retornar o valor de "valorLido"
-    
-    criar procedimento público "calculaTotal", utilizando as variaveis "produto" e "quantidade"
-        utilizando a estrutura de controle SWITCH
-
-
-
+    criar procedimento público "calculaPreco", utilizando as variaveis "produto" e "quantidade"
+        declarar as variaveis "preco" e "total" como tipo int
+        utilizar a estrutura de controle IF, caso o valor de "produto" seja igual a "ABCD" ou o valor de "produto" seja igual a "abcd"
+            atribuir o valor da variavel "preco" para 100
+            atribuir o valor da variavel "total" para a expressão (preco * quantidade)
+            escrever linha para o usuario para exibir o valor total a se pagar, $"O valor total fica: R$ {total}"
+        utilizar a estrutura de controle ELSE IF, caso o valor de "produto" seja igual a "XYPK" ou o valor de "produto" seja igual a "xypk"
+            atribuir o valor da variavel "preco" para 200
+            atribuir o valor da variavel "total" para a expressão (preco * quantidade)
+            escrever linha para o usuario para exibir o valor total a se pagar, $"O valor total fica: R$ {total}"
+        utilizar a estrutura de controle ELSE IF, caso o valor de "produto" seja igual a "KLMP" ou o valor de "produto" seja igual a "klmp"
+            atribuir o valor da variavel "preco" para 400
+            atribuir o valor da variavel "total" para a expressão (preco * quantidade)
+            escrever linha para o usuario para exibir o valor total a se pagar, $"O valor total fica: R$ {total}"
+        utilizar a estrutura de controle ELSE IF, caso o valor de "produto" seja igual a "QRST" ou o valor de "produto" seja igual a "qrst"
+            atribuir o valor da variavel "preco" para 1000
+            atribuir o valor da variavel "total" para a expressão (preco * quantidade)
+            escrever linha para o usuario, exibir o valor total a se pagar, $"O valor total fica: R$ {total}"
+        utilizar a estrutura de controle ELSE
+            escrever linha para o usuario, exibir mensagem de erro, "PRODUTO INVALIDO\nDigite um código de produto valido."
+    atribuir o valor da variavel "produto" para a função "leProduto", utilizando como frase "Digite o código do produto: "
+    atribuir o valor da variavel "quantidade" para a função "leQuantidade", utilizando como frase "Digite a quantidade do produto: "
+    chamar o procedimento "calculaPreco", utilizando as variaveis "produto" e "quantidade"
 } fim

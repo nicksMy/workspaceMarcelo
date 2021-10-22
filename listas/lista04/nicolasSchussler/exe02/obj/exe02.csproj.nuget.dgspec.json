@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\NSPC\\Documents\\workspace\\workspaceMarcelo\\listas\\lista04\\nicolasSchussler\\exe02\\exe02.csproj": {}
+    "/home/nicks/Documentos/workspace/workspaceMarcelo/listas/lista04/nicolasSchussler/exe02/exe02.csproj": {}
   },
   "projects": {
-    "C:\\Users\\NSPC\\Documents\\workspace\\workspaceMarcelo\\listas\\lista04\\nicolasSchussler\\exe02\\exe02.csproj": {
+    "/home/nicks/Documentos/workspace/workspaceMarcelo/listas/lista04/nicolasSchussler/exe02/exe02.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\NSPC\\Documents\\workspace\\workspaceMarcelo\\listas\\lista04\\nicolasSchussler\\exe02\\exe02.csproj",
+        "projectUniqueName": "/home/nicks/Documentos/workspace/workspaceMarcelo/listas/lista04/nicolasSchussler/exe02/exe02.csproj",
         "projectName": "exe02",
-        "projectPath": "C:\\Users\\NSPC\\Documents\\workspace\\workspaceMarcelo\\listas\\lista04\\nicolasSchussler\\exe02\\exe02.csproj",
-        "packagesPath": "C:\\Users\\NSPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\NSPC\\Documents\\workspace\\workspaceMarcelo\\listas\\lista04\\nicolasSchussler\\exe02\\obj\\",
+        "projectPath": "/home/nicks/Documentos/workspace/workspaceMarcelo/listas/lista04/nicolasSchussler/exe02/exe02.csproj",
+        "packagesPath": "/home/nicks/.nuget/packages/",
+        "outputPath": "/home/nicks/Documentos/workspace/workspaceMarcelo/listas/lista04/nicolasSchussler/exe02/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\NSPC\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/nicks/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
         }
       }
     }

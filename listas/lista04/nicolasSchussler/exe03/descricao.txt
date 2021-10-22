@@ -6,5 +6,34 @@ determine e mostre o novo saldo. Se o novo saldo ficar negativo, deve ser mostra
 também, a mensagem “conta estourada”.
 
 inicio {
-
+    declarar a variavel "saldo" e "valorOperacao" como tipo double
+    declarar a variavel "operacao" como tipo string
+    escrever linha exibindo as possiveis operações
+    criar função pública double "leValor", utilizando a variavel "frase" como tipo string
+        declarar a variavel "valorLido" como tipo double
+        escrever linha solicitando para o usuario digitar o saldo atual
+        converter e armazenar o dado de entrada na variavel "valorLido"
+        retornar o valor de "valorLido"
+    criar função pública string "leOperacao", utilizando a variavel "frase" como tipo string
+        declarar a variavel "operacaoLida" como tipo string
+        escrever linha solicitando para o usuario digitar a operação desejada
+        converter e armazenar o dado de entrada na variavel "operacaoLida"
+        retornar o valor de "operacaoLida"
+    criar procedimento público "fazOperacao", utilizando as variaveis "saldo", "operacao" e "valorOperacao"
+        utilizar a estrutura de controle IF, caso o valor da variavel "operacao" for igual a "deposito"
+            declarar a variavel "saldoAtual" como tipo double
+            atribuir o valor de "saldoAtual" para a expressão, (saldo + valorOperacao)
+            escrever linha para o usuario, exibir o valor depois da operacao, $"Seu saldo atual ficou: {saldoAtual}"
+        utilizar a estrutura de controle ELSE IF, caso o valor da variavel "operacao" for igual a "retirada"
+            declarar a variavel "saldoAtual" como tipo double
+            atribuir o valor de "saldoAtual" para a expressão, (saldo - valorOperacao)
+                utilizar a estrutura de controle IF, caso o valor da variavel "saldoAtual" seja menor que 0
+                    escrever linha para o usuario, exibir frase falando que sua conta está estourada, "Sua conta está estourada"
+                utilizar a estrutura de controle ELSE
+                    escrever linha para o usuario, exibir o valor depois da operacao, $"Seu saldo atual ficou: {saldoAtual}"
+        utilizar a estrutura sde controle ELSE
+            escrever linha para o usuario, exibir frase solicitando para que digite operação ou valores novamente, "OPERAÇÃO OU VALORES INCORRETOS\nDigite os valores e a operação novamente."
+    atribuir o valor da variavel "saldo" para a função "leValor", utilizando como frase "Digite o valor do seu saldo: "
+    atribuir o valor da variavel "operacao" para a função "leOperacao", utilizando como frase "Digite o tipo de operação: "
+    atribuir o valor da variavel "valorOperacao" para a função "leValor", utilizando como frase "Digite o valor da sua operação bancaria: "
 } fim
