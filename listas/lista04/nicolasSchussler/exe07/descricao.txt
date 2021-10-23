@@ -3,5 +3,19 @@ Bruno Napoleão A. M. & Nicolas Schüssler G. - 22/10/21
 02) Reescreva o exercício anterior utilizando a estrutura ENQUANTO (while).
 
 inicio {
-
+    declarar as variaveis "primeiroValor" e "segundoValor", como tipo double
+    criar a função pública double "leValor", utilizando a variavel "frase" como tipo string
+        declarar a variavel "valorLido", como tipo double
+        escrever linha para o usuario, exibir frase solicitando para que digite um valor númerico
+        converter e armazenar o valor de entrada na variavel "valorLido"
+        retornar o valor da variavel "valorLido"
+    criar o procedimento público "confereValor", utilizando as variaveis "primeiroValor" e "segundoValor" como tipo double
+        declarar a variavel "total", como tipo double
+        utilizar estrutura de repetição WHILE, enquanto "segundoValor" for igual a 0
+            atribuir a variavel "segundoValor" o procedimento "leValor", exibindo a frase "VALOR INVÁLIDO\nDigite novamente o segundo valor"
+        atribuir a variavel "total" a expressão (primeiroValor  / segundoValor)
+        escrever linha para o usuario, $"Seus valores são: {primeiroValor} e {segundoValor}\nValor da divisão: {total}"
+    atribuir a variavel "primeiroValor" para a função "leValor", exibir frase solicitando para digitar o primeiro valor númerico
+    atribuir a variavel "segundoValor" para a função "leValor", exibir frase solicitando para digitar o segundo valor númerico
+    efetuar a chamda de procedimento "confereValor", utilizando as variaveis "primeiroValor" e "segundoValor"
 } fim

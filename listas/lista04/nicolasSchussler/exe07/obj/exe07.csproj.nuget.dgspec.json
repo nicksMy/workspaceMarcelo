@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/nicks/Documentos/workspaceMarcelo/workspaceMarcelo/listas/lista04/nicolasSchussler/exe07/exe07.csproj": {}
+    "/home/nicks/Documentos/workspace/workspaceMarcelo/listas/lista04/nicolasSchussler/exe07/exe07.csproj": {}
   },
   "projects": {
-    "/home/nicks/Documentos/workspaceMarcelo/workspaceMarcelo/listas/lista04/nicolasSchussler/exe07/exe07.csproj": {
+    "/home/nicks/Documentos/workspace/workspaceMarcelo/listas/lista04/nicolasSchussler/exe07/exe07.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/nicks/Documentos/workspaceMarcelo/workspaceMarcelo/listas/lista04/nicolasSchussler/exe07/exe07.csproj",
+        "projectUniqueName": "/home/nicks/Documentos/workspace/workspaceMarcelo/listas/lista04/nicolasSchussler/exe07/exe07.csproj",
         "projectName": "exe07",
-        "projectPath": "/home/nicks/Documentos/workspaceMarcelo/workspaceMarcelo/listas/lista04/nicolasSchussler/exe07/exe07.csproj",
+        "projectPath": "/home/nicks/Documentos/workspace/workspaceMarcelo/listas/lista04/nicolasSchussler/exe07/exe07.csproj",
         "packagesPath": "/home/nicks/.nuget/packages/",
-        "outputPath": "/home/nicks/Documentos/workspaceMarcelo/workspaceMarcelo/listas/lista04/nicolasSchussler/exe07/obj/",
+        "outputPath": "/home/nicks/Documentos/workspace/workspaceMarcelo/listas/lista04/nicolasSchussler/exe07/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/nicks/.nuget/NuGet/NuGet.Config"
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
         }
       }
     }

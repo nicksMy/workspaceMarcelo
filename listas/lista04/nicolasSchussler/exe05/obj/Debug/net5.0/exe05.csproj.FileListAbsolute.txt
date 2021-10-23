@@ -1,0 +1,16 @@
+/home/nicks/Documentos/workspace/workspaceMarcelo/listas/lista04/nicolasSchussler/exe05/bin/Debug/net5.0/exe05
+/home/nicks/Documentos/workspace/workspaceMarcelo/listas/lista04/nicolasSchussler/exe05/bin/Debug/net5.0/exe05.deps.json
+/home/nicks/Documentos/workspace/workspaceMarcelo/listas/lista04/nicolasSchussler/exe05/bin/Debug/net5.0/exe05.runtimeconfig.json
+/home/nicks/Documentos/workspace/workspaceMarcelo/listas/lista04/nicolasSchussler/exe05/bin/Debug/net5.0/exe05.runtimeconfig.dev.json
+/home/nicks/Documentos/workspace/workspaceMarcelo/listas/lista04/nicolasSchussler/exe05/bin/Debug/net5.0/exe05.dll
+/home/nicks/Documentos/workspace/workspaceMarcelo/listas/lista04/nicolasSchussler/exe05/bin/Debug/net5.0/ref/exe05.dll
+/home/nicks/Documentos/workspace/workspaceMarcelo/listas/lista04/nicolasSchussler/exe05/bin/Debug/net5.0/exe05.pdb
+/home/nicks/Documentos/workspace/workspaceMarcelo/listas/lista04/nicolasSchussler/exe05/obj/Debug/net5.0/exe05.csproj.AssemblyReference.cache
+/home/nicks/Documentos/workspace/workspaceMarcelo/listas/lista04/nicolasSchussler/exe05/obj/Debug/net5.0/exe05.GeneratedMSBuildEditorConfig.editorconfig
+/home/nicks/Documentos/workspace/workspaceMarcelo/listas/lista04/nicolasSchussler/exe05/obj/Debug/net5.0/exe05.AssemblyInfoInputs.cache
+/home/nicks/Documentos/workspace/workspaceMarcelo/listas/lista04/nicolasSchussler/exe05/obj/Debug/net5.0/exe05.AssemblyInfo.cs
+/home/nicks/Documentos/workspace/workspaceMarcelo/listas/lista04/nicolasSchussler/exe05/obj/Debug/net5.0/exe05.csproj.CoreCompileInputs.cache
+/home/nicks/Documentos/workspace/workspaceMarcelo/listas/lista04/nicolasSchussler/exe05/obj/Debug/net5.0/exe05.dll
+/home/nicks/Documentos/workspace/workspaceMarcelo/listas/lista04/nicolasSchussler/exe05/obj/Debug/net5.0/ref/exe05.dll
+/home/nicks/Documentos/workspace/workspaceMarcelo/listas/lista04/nicolasSchussler/exe05/obj/Debug/net5.0/exe05.pdb
+/home/nicks/Documentos/workspace/workspaceMarcelo/listas/lista04/nicolasSchussler/exe05/obj/Debug/net5.0/exe05.genruntimeconfig.cache

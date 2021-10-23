@@ -4,5 +4,51 @@ Bruno Napoleão A. M. & Nicolas Schüssler G. - 22/10/21
 (imprima) em ordem crescente (menor para o maior).
 
 inicio {
-
+    declarar as variaveis "num01", "num02" e "num03" como tipo double
+    criar função pública double "leValor", utilizando a variavel "frase" como tipo string
+        declarar a variavel "valorLido" como tipo double
+        escrever linha para usuario inserir um valor numerico
+        converter e armazenar dado de entrada na variavel "valorLido"
+        retornar o valor de "valorLido"
+    criar o procedimento público "exibeOrdem", utilizando as variaveis "menor", "medio", "maior" como tipo double
+        escrever a linha para o usuario $"{menor} {medio} {maior}"
+    criar o procedimento público "organizaNumeros", utilizando as variaveis "num01", "num02" e "num03" como tipo double
+        declarar as variaveis "menor", "medio" e "maior" como tipo double
+        utilizar a estrutura de controle IF, caso o valor de "num01" seja maior ou igual a "num02" e seja maior ou igual a "num03"
+            atribuir o valor de "maior" para a variavel "num01"
+            utilizar a estrutura de controle IF, caso o valor de "num02" seja maior ou igual a "num03"
+                atribuir o valor de "medio" para a variavel "num02"
+                atribuir o valor de "menor" para a variavel "num03"
+                efetuar chamada de procedimento "exibeOrdem", utilizando as variaveis "menor", "medio" e "maior"
+            utilizar a estrutura de controle ELSE
+                atribuir o valor de "menor" para a variavel "num02"
+                atribuir o valor de "medio" para a variavel "num03"
+                atribuir o valor de "maior" para a variavel "num01"
+                efetuar chamada de procedimento "exibeOrdem", utilizando as variaveis "menor", "medio" e "maior"
+        utilizar a estrutura de controle IF, caso o valor de "num02" seja maior ou igual a "num01" e seja maior ou igual a "num03"
+            atribuir o valor de "maior" para a variavel "num02"
+            utilizar a estrutura de controle IF, caso o valor de "num01" seja maior ou igual a "num03"
+                atribuir o valor de "medio" para a variavel "num01"
+                atribuir o valor de "menor" para a variavel "num03"
+                efetuar chamada de procedimento "exibeOrdem", utilizando as variaveis "menor", "medio" e "maior"
+            utilizar a estrutura de controle ELSE
+                atribuir o valor de "menor" para a variavel "num01"
+                atribuir o valor de "medio" para a variavel "num03"
+                atribuir o valor de "maior" para a variavel "num02"
+                efetuar chamada de procedimento "exibeOrdem", utilizando as variaveis "menor", "medio" e "maior"
+        utilizar a estrutura de controle IF, caso o valor de "num03" seja maior ou igual a "num01" e seja maior ou igual a "num02"
+            atribuir o valor de "maior" para a variavel "num03"
+            utilizar a estrutura de controle IF, caso o valor de "num01" seja maior ou igual a "num02"
+                atribuir o valor de "medio" para a variavel "num01"
+                atribuir o valor de "menor" para a variavel "num02"
+                efetuar chamada de procedimento "exibeOrdem", utilizando as variaveis "menor", "medio" e "maior"
+            utilizar a estrutura de controle ELSE
+                atribuir o valor de "menor" para a variavel "num01"
+                atribuir o valor de "medio" para a variavel "num02"
+                atribuir o valor de "maior" para a variavel "num03"
+                efetuar chamada de procedimento "exibeOrdem", utilizando as variaveis "menor", "medio" e "maior"
+    atribuir o valor da variavel "num01" para a função "leValor", utilizando como frase "Digite seu primeiro valor númerico: "
+    atribuir o valor da variavel "num02" para a função "leValor", utilizando como frase "Digite seu segundo valor númerico: "
+    atribuir o valor da variavel "num03" para a função "leValor", utilizando como frase "Digite seu terceiro valor númerico: "
+    efetuar a chamada de procedimento "organizaNumeros", utilizando as variaveis "num01", "num02" e "num03"
 } fim

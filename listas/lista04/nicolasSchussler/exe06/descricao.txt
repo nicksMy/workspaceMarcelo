@@ -7,5 +7,22 @@ uma mensagem de 'VALOR INVÁLIDO' caso o segundo valor informado seja ZERO (util
 a estrutura for).
 
 inicio {
-
+    declarar as variaveis "primeiroValor" e "segundoValor", como tipo double
+    criar a função pública double "leValor", utilizando a variavel "frase" como tipo string
+        declarar a variavel "valorLido", como tipo double
+        escrever linha para o usuario, exibir frase solicitando para que digite um valor númerico
+        converter e armazenar o valor de entrada na variavel "valorLido"
+        retornar o valor da variavel "valorLido"
+    criar o procedimento público "confereValor", utilizando as variaveis "primeiroValor" e "segundoValor" como tipo double
+        declarar a variavel "total", como tipo double
+        utilizar a estrutura de controle IF, caso o valor de "segundoValor" seja igual a 0
+            utilizar a estrutra de repetição FOR, com a expressão (i = 0; i < 1000; i++)
+                atribuir o valor de "segundoValor" para a função "leValor", exibir a frase "VALOR INVÁLIDO\nDigite novamente o segundo valor"
+                utilizar a estrutra de controle IF, caso o valor de "segundoValor" seja diferente de 0
+                    quebrar o laço de repetição 
+        atribuir a variavel "total" a expressão (primeiroValor  / segundoValor)
+        escrever linha para o usuario, $"Seus valores são: {primeiroValor} e {segundoValor}\nValor da divisão: {total}"
+    atribuir a variavel "primeiroValor" para a função "leValor", exibir frase solicitando para digitar o primeiro valor númerico
+    atribuir a variavel "segundoValor" para a função "leValor", exibir frase solicitando para digitar o segundo valor númerico
+    efetuar a chamda de procedimento "confereValor", utilizando as variaveis "primeiroValor" e "segundoValor"    
 } fim
