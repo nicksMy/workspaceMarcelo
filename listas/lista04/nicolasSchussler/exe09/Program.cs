@@ -5,9 +5,9 @@ namespace exe09
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
+        // Ponto de entrada
+        static void Main(string[] args) {
+
         }
     }
 }

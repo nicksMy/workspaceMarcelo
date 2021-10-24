@@ -4,5 +4,20 @@ Bruno Napoleão A. M. & Nicolas Schüssler G. - 22/10/21
 10 do valor lido.
 
 inicio {
-
+    declarar a variavel "valorInteiro" como tipo int
+    criar função pública int "leValorInteiro", utilizando a variavel "frase" como tipo string
+        declarar a variavel "valorLido" como tipo int
+        escrever linha solicitando para o usuario digitar um valor inteiro
+        converter e armazenar o valor de entrada na variavel "valorLido"
+        utilizar a estrutura de repetição WHILE, enquanto o "valorLido" for menor que 1 ou maior que 10
+            escrever linha para o usuario "\nVALOR INVALIDO!\nDigite novamente: "
+            converter e armazenar o valor de entrada na variavel "valorLido"
+        retornar o valor da variavel "valorLido"
+    criar o procedimento público "fazTabela", utilizando a variavel "valorInteiro" como tipo int
+        declarar a variavel "resultado" como tipo inteiro
+        utilizar a estrutura de repetição FOR, int i = 1; i < 11; i++
+            atribuir o valor de "resultado" para a expressão (i * valorInteiro)
+            escrever linha para o usuario, $"{i} * {valorInteiro} = {resultado}"
+    atribuir o valor da variavel "valorInteiro" para a função "leValorInteiro", utilizando como frase "Digite um valor inteiro para efetuar tabuada: \nO NÚMERO DEVE ESTAR ENTRE 1 E 10 "
+    efetuar chamada de procedimento "fazTabela", utilizando a variavel valorInteiro
 } fim
