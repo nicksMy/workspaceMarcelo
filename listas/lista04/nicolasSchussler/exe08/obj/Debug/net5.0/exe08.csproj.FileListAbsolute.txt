@@ -1,0 +1,16 @@
+C:\Users\NSPC\Documents\workspace\workspaceMarcelo\workspaceMarcelo\listas\lista04\nicolasSchussler\exe08\bin\Debug\net5.0\exe08.exe
+C:\Users\NSPC\Documents\workspace\workspaceMarcelo\workspaceMarcelo\listas\lista04\nicolasSchussler\exe08\bin\Debug\net5.0\exe08.deps.json
+C:\Users\NSPC\Documents\workspace\workspaceMarcelo\workspaceMarcelo\listas\lista04\nicolasSchussler\exe08\bin\Debug\net5.0\exe08.runtimeconfig.json
+C:\Users\NSPC\Documents\workspace\workspaceMarcelo\workspaceMarcelo\listas\lista04\nicolasSchussler\exe08\bin\Debug\net5.0\exe08.runtimeconfig.dev.json
+C:\Users\NSPC\Documents\workspace\workspaceMarcelo\workspaceMarcelo\listas\lista04\nicolasSchussler\exe08\bin\Debug\net5.0\exe08.dll
+C:\Users\NSPC\Documents\workspace\workspaceMarcelo\workspaceMarcelo\listas\lista04\nicolasSchussler\exe08\bin\Debug\net5.0\ref\exe08.dll
+C:\Users\NSPC\Documents\workspace\workspaceMarcelo\workspaceMarcelo\listas\lista04\nicolasSchussler\exe08\bin\Debug\net5.0\exe08.pdb
+C:\Users\NSPC\Documents\workspace\workspaceMarcelo\workspaceMarcelo\listas\lista04\nicolasSchussler\exe08\obj\Debug\net5.0\exe08.csprojAssemblyReference.cache
+C:\Users\NSPC\Documents\workspace\workspaceMarcelo\workspaceMarcelo\listas\lista04\nicolasSchussler\exe08\obj\Debug\net5.0\exe08.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NSPC\Documents\workspace\workspaceMarcelo\workspaceMarcelo\listas\lista04\nicolasSchussler\exe08\obj\Debug\net5.0\exe08.AssemblyInfoInputs.cache
+C:\Users\NSPC\Documents\workspace\workspaceMarcelo\workspaceMarcelo\listas\lista04\nicolasSchussler\exe08\obj\Debug\net5.0\exe08.AssemblyInfo.cs
+C:\Users\NSPC\Documents\workspace\workspaceMarcelo\workspaceMarcelo\listas\lista04\nicolasSchussler\exe08\obj\Debug\net5.0\exe08.csproj.CoreCompileInputs.cache
+C:\Users\NSPC\Documents\workspace\workspaceMarcelo\workspaceMarcelo\listas\lista04\nicolasSchussler\exe08\obj\Debug\net5.0\exe08.dll
+C:\Users\NSPC\Documents\workspace\workspaceMarcelo\workspaceMarcelo\listas\lista04\nicolasSchussler\exe08\obj\Debug\net5.0\ref\exe08.dll
+C:\Users\NSPC\Documents\workspace\workspaceMarcelo\workspaceMarcelo\listas\lista04\nicolasSchussler\exe08\obj\Debug\net5.0\exe08.pdb
+C:\Users\NSPC\Documents\workspace\workspaceMarcelo\workspaceMarcelo\listas\lista04\nicolasSchussler\exe08\obj\Debug\net5.0\exe08.genruntimeconfig.cache

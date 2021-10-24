@@ -7,5 +7,37 @@ ao final do exercício. Se for respondido 'S' deve retornar e executar um novo c
 contrário deverá encerrar o algoritmo
 
 inicio {
-
+    declarar as variaveis "nota01", "nota02", "nota03", "nota04", "nota05" e "nota06" como tipo double
+    declarar a variavel "continua" como tipo bool, atribuindo o valor para true
+    criar função pública bool "novoCalculo", utilizando a variavel "frase" como tipo string
+        declarar a variavel "resultado" como tipo string
+        declarar a variavel "continua" como tipo bool, atribuindo o valor para false
+        escrever linha perguntando sobre um novo calculo para o usuario
+        converter e armazenar o valor de entrada na variavel "resultado"
+        utilizar a estrutura de controle IF, caso o valor de "resultado" for igual a "S" ou igual a "s"
+            atribuir o valor de "continua" para true
+        utilizar a estrutura de controle IF, caso o valor de "resultado" for igual a "N" ou igual a "n"
+            atribuir o valor de "continua" para false
+        retornar o valor da variavel "continua"
+    criar função pública double "leNota", utilizando a variavel "frase" como tipo string
+        declarar a variavel "notaLida" como tipo double
+        escrever linha solicitando para o usuario digitar sua nota
+        converter e armazenar o valor de entrada na variavel notaLida
+        utilizando estrutura de repetição WHILE, enquanto o valor de "notaLida" for menor que 0 ou maior que 10
+            escrever linha para o usuario, "\nNOTA INVALIDA!\nDigite novamente: "
+            converter e armazenar o valor de entrada para a variavel "notaLida"
+        retornar o valor da variavel "notaLida"
+    criar procedimento público "calculaMedia", utilizando as variaveis "n01", "n02", "n03", "n04", "n05" e "n06" como tipo double
+        declarar a variavel resultado como tipo double
+        atribuir o valor de resultado para a expressão ((n01 + n02 + n03 + n04 + n05 + n06) / 6)
+        escrever linha para o usuario, $"\nO resultado da média simples foi: {resultado}"
+    utilizar a estrutura de controle WHILE, enquanto o valor de "continua" for true
+        atribuir para a variavel "nota01" a função "leNota", utilizando como frase "Digite sua nota: "
+        atribuir para a variavel "nota02" a função "leNota", utilizando como frase "Digite sua nota: "
+        atribuir para a variavel "nota03" a função "leNota", utilizando como frase "Digite sua nota: "
+        atribuir para a variavel "nota04" a função "leNota", utilizando como frase "Digite sua nota: "
+        atribuir para a variavel "nota05" a função "leNota", utilizando como frase "Digite sua nota: "
+        atribuir para a variavel "nota06" a função "leNota", utilizando como frase "Digite sua nota: "
+        efetuar chamada de procedimento "calculaMedia", utilizando as variaveis "nota01", "nota02", "nota03", "nota04", "nota05" e "nota06"
+        atribuir para a variavel continua a função "novoCalculo", utilizando como frase "NOVO CÁLCULO (S/N)?"
 } fim
