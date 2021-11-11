@@ -16,7 +16,7 @@ inicio {
     criar o procedimento público "confereValor", utilizando as variaveis "primeiroValor" e "segundoValor" como tipo double
         declarar a variavel "total", como tipo double
         utilizar a estrutura de controle IF, caso o valor de "segundoValor" seja igual a 0
-            utilizar a estrutra de repetição FOR, com a expressão (i = 0; i < 1000; i++)
+            utilizar a estrutra de repetição FOR, com a expressão (;;), para gerar loop infinito
                 atribuir o valor de "segundoValor" para a função "leValor", exibir a frase "VALOR INVÁLIDO\nDigite novamente o segundo valor"
                 utilizar a estrutra de controle IF, caso o valor de "segundoValor" seja diferente de 0
                     quebrar o laço de repetição 

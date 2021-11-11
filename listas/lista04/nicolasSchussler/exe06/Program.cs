@@ -37,12 +37,11 @@ namespace exe06
         static public void confereValor (double primeiroValor, double segundoValor) {
             // Declaração de variavel
             double total;
-            int i;
 
             // Utilização de estrutura de controle
             if (segundoValor == 0) {
                 // Utilização de estrutura de repetição
-                for (i = 0; i < 1000; i++) {
+                for (;;) {
                     // Atribuição e chamada de função
                     segundoValor = leValor("VALOR INVÁLIDO\nDigite novamente o segundo valor");
 
