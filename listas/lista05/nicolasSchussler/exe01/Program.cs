@@ -126,7 +126,7 @@ namespace exe01
                     // caso verdade altera para false
                     // quebrando o laço de repetição
                     continua = false;
-                }
+                }   
 
                 else
                 {

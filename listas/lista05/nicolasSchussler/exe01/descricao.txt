@@ -1,0 +1,55 @@
+Bruno Napoleão A. M. & Nicolas Schüssler G. - 03/12/21
+
+inicio
+    {
+        chamar o procedimento "menu"
+        declarar e atribuir o valor da variavel "escolha" para a função "leOpcao"
+
+        utilizar a estrutura de controle condicional SWITCH
+            caso o valor da variavel "escolha"...
+            
+            caso valor seja 1
+            caso valor seja 2
+            caso valor seja 3
+            caso valor seja 4
+            caso valor seja 5
+            caso valor seja 6
+            caso valor seja 7
+            caso valor seja 8
+            caso valor seja 9
+            caso valor seja 10
+            caso valor seja 11
+            caso valor seja 12
+
+
+        criar procedimento "menu"
+            escrever qual programa está rodando para o usuario
+            escrever menu com as opções de calculos e seus respectivos números
+
+        criar função tipo int "leOpcao"
+            declarar a variavel "numOpcao" como tipo INT, atribuindo o valor para 0
+            declarar a variavel "continua" como tipo BOOL, atribuindo o valor para true
+            dar inicio ao laço de repetição usando DO
+                declarar a variavel "numEscolhido" como tipo STRING
+                escrever linha solicitando para escrever sua opção
+                atribuir o valor de "numEscolhido" para o valor de entrada do teclado
+                chamar a função "TryParse" para tentar efetuar a conversão da variavel "numEscolhido"
+                    caso consiga atribui o valor para "numOpcao"
+                    caso não consiga não altera o valor de "numOpcao"
+
+                utilizar a estrutura de controle IF
+                    caso o valor da variavel "numOpcao" for maior ou igual a X (maior número de opções já implementadas) e 
+                                                        for menor ou igual a X (menor número de opções já implementadas)
+                        alterar o valor da variavel "continua" para false
+                utilizar a estrutura de controle ELSE
+                    caso seja falso, efetuar limpeza do terminal
+                    escrever mensagem de error para o usuario, solicitando para digitar uma opção valida
+                    chamar o procedimento "menu"
+
+            utilizar a estrutura de repetição WHILE
+                caso o valor de "continua" seja false, saia do laço de repetição
+                caso o valor de "continua" seja true, continue no laço de repetição
+
+            retornar o valor da variavel "numOpcao"
+    }
+fim
