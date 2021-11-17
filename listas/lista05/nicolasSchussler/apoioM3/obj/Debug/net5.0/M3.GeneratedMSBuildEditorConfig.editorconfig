@@ -6,5 +6,8 @@ build_property.ProjectTypeGuids =
 build_property.PublishSingleFile = 
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
+<<<<<<< HEAD
 build_property.RootNamespace = M3
 build_property.ProjectDir = /home/nicks/Documentos/workspace/workspaceMarcelo/listas/lista05/nicolasSchussler/apoioM3/
+=======
+>>>>>>> 40c1e634ba62223521db1442b728a779dac10647

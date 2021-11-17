@@ -16,8 +16,8 @@ namespace exe01
             // armazena o valor retornado da função "leOpcao"
             int escolha = leOpcao();
 
-            switch (escolha)
             // calculos de acordo com a opção
+            switch (escolha)
             {
                 // cilindro                
                 case 1:
