@@ -77,6 +77,7 @@ namespace exe01
             Console.WriteLine("> Você está rodando: \n> Calculadora Geométrica");
 
             // mostra opções de calculo disponiveis no programa
+            // utilizando a função para organizar
             Console.WriteLine("\n|----------------------OPÇÕES DE CALCULOS----------------------|\n");
             
             Console.WriteLine(String.Format("{0, -20} | {1, -20} | {2, -20}", "1) Cilindro", "2) Círculo", "3) Elipse"));
