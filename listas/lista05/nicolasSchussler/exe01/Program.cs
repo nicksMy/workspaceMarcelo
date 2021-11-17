@@ -19,28 +19,52 @@ namespace exe01
             switch (escolha)
             // calculos de acordo com a opção
             {
-                // pirâmide
+                // cilindro                
                 case 1:
                     break;
 
-                // cone
+                // circulo
                 case 2:
                     break;
 
-                // cilindro
+                // elipse
                 case 3:
                     break;
 
-                // prisma
+                // esfera
                 case 4:
                     break;
 
-                // cubo
+                // losango
                 case 5:
                     break;
 
-                // esfera
+                // paralelogramo
                 case 6:
+                    break;
+
+                // quadrado
+                case 7:
+                    break;
+
+                // retangulo
+                case 8:
+                    break;
+
+                // trapezio
+                case 9:
+                    break;
+
+                // triangulo equilatero
+                case 10:
+                    break;
+
+                // triangulo isosceles
+                case 11:
+                    break;
+
+                // triangulo retangulo
+                case 12:
                     break;
             }
         }
@@ -53,7 +77,21 @@ namespace exe01
             Console.WriteLine("> Você está rodando: \n> Calculadora Geométrica");
 
             // mostra opções de calculo disponiveis no programa
-            Console.WriteLine("\n----OPÇÕES DE CALCULOS---- \n> 1: Pirâmide  > 4: Prísma\n> 2: Cone      > 5: Cubo\n> 3: Cilindro  > 6: Esfera");
+            Console.WriteLine("\n|----------------------OPÇÕES DE CALCULOS----------------------|\n");
+            
+            Console.WriteLine(String.Format("{0, -20} | {1, -20} | {2, -20}", "1) Cilindro", "2) Círculo", "3) Elipse"));
+
+            Console.WriteLine("----------------------------------------------------------------");
+
+            Console.WriteLine(String.Format("{0, -20} | {1, -20} | {2, -20}", "4) Esfera", "5) Losango", "6) Paralelogramo"));
+
+            Console.WriteLine("----------------------------------------------------------------");
+
+            Console.WriteLine(String.Format("{0, -20} | {1, -20} | {2, -20}", "7) Quadrado", "8) Retângulo", "9) Trapézio"));
+
+            Console.WriteLine("----------------------------------------------------------------");
+
+            Console.WriteLine(String.Format("{0, -20} | {1, -20} | {2, -20}", "10) Tri. Equilatero", "11) Tri. Isosceles", "12) Tri. Retângulo"));
         }
 
         static int leOpcao()
