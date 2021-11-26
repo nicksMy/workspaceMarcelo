@@ -1,5 +1,6 @@
 ﻿// Bruno Napoleão A. M. & Nicolas Schüssler G. - 03/12/21
 using System;
+// inclusão de Math e Console
 
 namespace exe01
 // inicio de escopo do namespace
@@ -21,6 +22,22 @@ namespace exe01
             {
                 // cilindro                
                 case 1:
+                    double altura = 0;
+                    double raio = 0;
+
+                    Console.WriteLine("Digite a altura do cilindro");
+                    Double.TryParse(Console.ReadLine(), out altura);
+
+                    Console.WriteLine("Digite o raio do cilindro");
+                    Double.TryParse(Console.ReadLine(), out raio);
+
+                    Cilindro cilindro = new Cilindro (altura, raio);
+                    
+                    cilindro.calculaAreaBase();
+                    cilindro.calculaAreaLateral();
+                    cilindro.calculaAreaTotal();
+                    cilindro.calculaVolume();
+                    
                     break;
 
                 // circulo
