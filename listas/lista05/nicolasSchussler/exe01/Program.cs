@@ -37,7 +37,11 @@ namespace exe01
                     cilindro.calculaAreaLateral();
                     cilindro.calculaAreaTotal();
                     cilindro.calculaVolume();
-                    
+
+                    Console.WriteLine("Área da base do seu Cilindro: " + cilindro.getAreaBase());
+                    Console.WriteLine("Área lateral do seu Cilindro: " + cilindro.getAreaLateral());
+                    Console.WriteLine("Área total do seu Cilindro: " + cilindro.getAreaTotal());
+                    Console.WriteLine("Volume do seu Cilindro: " + cilindro.getVolume());
                     break;
 
                 // circulo
