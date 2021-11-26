@@ -22,26 +22,35 @@ namespace exe01
             {
                 // cilindro                
                 case 1:
+                    // inicio do escopo case 1
                     double altura = 0;
                     double raio = 0;
 
-                    Console.WriteLine("Digite a altura do cilindro");
+                    // mensagem para o usuario inserir os dados necessarios
+                    Console.WriteLine("\n>Digite a altura do cilindro");
                     Double.TryParse(Console.ReadLine(), out altura);
 
-                    Console.WriteLine("Digite o raio do cilindro");
+                    Console.WriteLine("\n>Digite o raio do cilindro");
                     Double.TryParse(Console.ReadLine(), out raio);
 
+                    // cria o objeto cilindro como tipo Cilindro
                     Cilindro cilindro = new Cilindro (altura, raio);
                     
+                    // acessa os métodos públicos para calcular 
                     cilindro.calculaAreaBase();
                     cilindro.calculaAreaLateral();
                     cilindro.calculaAreaTotal();
                     cilindro.calculaVolume();
+                    cilindro.calculaPerimetro();
 
-                    Console.WriteLine("Área da base do seu Cilindro: " + cilindro.getAreaBase());
-                    Console.WriteLine("Área lateral do seu Cilindro: " + cilindro.getAreaLateral());
-                    Console.WriteLine("Área total do seu Cilindro: " + cilindro.getAreaTotal());
-                    Console.WriteLine("Volume do seu Cilindro: " + cilindro.getVolume());
+                    // acessa os valores privados e retorna para o usuario
+                    Console.WriteLine("\nÁrea da base do seu Cilindro: " + cilindro.getAreaBase() + " m²");
+                    Console.WriteLine("Área lateral do seu Cilindro: " + cilindro.getAreaLateral() + " m²");
+                    Console.WriteLine("Área total do seu Cilindro: " + cilindro.getAreaTotal() + " m²");
+                    Console.WriteLine("Volume do seu Cilindro: " + cilindro.getVolume() + " m³");
+                    Console.WriteLine("Perimetro do seu Cilindro: " + cilindro.getPerimetro() + " m");
+
+                    // quebra a execução do bloco   
                     break;
 
                 // circulo

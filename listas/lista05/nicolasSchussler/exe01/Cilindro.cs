@@ -2,7 +2,7 @@
 using System;
 // inclusão de Math e Console
 
-namespace M3
+namespace exe01
 // inicio de escopo do namespace
 {
     public class Cilindro
@@ -16,7 +16,7 @@ namespace M3
         private double areaBase;
         private double areaLateral;
         private double areaTotal;
-        private double areaPerimetro;
+        private double perimetro;
 
         // comportamento / métodos
         public Cilindro (double h, double r)
@@ -56,21 +56,35 @@ namespace M3
         {
             areaTotal = 2 * Math.PI * raio * (raio + altura) ;
         }
-
+        public void calculaPerimetro ()
+        // procedimento para calcular o perimetro
+        {
+            perimetro = (2 * Math.PI) * raio;
+        }
         public double getAreaBase ()
-        // função apra retornar resultado da area da base
+        // função para retornar resultado da area da base
         {
             return areaBase;
         }
         public double getAreaLateral ()
-        // função apra retornar resultado da area da base
+        // função para retornar resultado da area da base
         {
             return areaLateral;
         }
         public double getAreaTotal ()
-        // função apra retornar resultado da area da base
+        // função para retornar resultado da area da base
         {
             return areaTotal;
+        }
+        public double getVolume ()
+        // função para retornar resultado do volume
+        {
+            return volume;
+        }
+        public double getPerimetro ()
+        // função para retornar resultado do perimetro
+        {
+            return perimetro;
         }
     }
 }
