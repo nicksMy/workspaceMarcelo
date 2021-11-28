@@ -26,14 +26,6 @@ namespace exe01
             raio = r;
             volume = 0;
         }
-
-        /*  Volume: πa2b
-            Área da base: πa2
-            Área lateral: 2πab
-            Área total: 2πa22πab
-
-            a = raio; b = altura
-        */ 
         public void calculaVolume ()
         // procedimento para calcular o volume
         {
@@ -54,7 +46,7 @@ namespace exe01
         public void calculaAreaTotal ()
         // procedimento para calcular a area total
         {
-            areaTotal = 2 * Math.PI * raio * (raio + altura) ;
+            areaTotal = 2 * Math.PI * raio * (raio + altura);
         }
         public void calculaPerimetro ()
         // procedimento para calcular o perimetro

@@ -16,6 +16,8 @@ namespace exe01
 
             // armazena o valor retornado da função "leOpcao"
             int escolha = leOpcao();
+            double altura = 0;
+            double raio = 0;
 
             // calculos de acordo com a opção
             switch (escolha)
@@ -23,14 +25,12 @@ namespace exe01
                 // cilindro                
                 case 1:
                     // inicio do escopo case 1
-                    double altura = 0;
-                    double raio = 0;
 
                     // mensagem para o usuario inserir os dados necessarios
-                    Console.WriteLine("\n>Digite a altura do cilindro");
+                    Console.WriteLine("\n> Digite a altura do cilindro");
                     Double.TryParse(Console.ReadLine(), out altura);
 
-                    Console.WriteLine("\n>Digite o raio do cilindro");
+                    Console.WriteLine("\n> Digite o raio do cilindro");
                     Double.TryParse(Console.ReadLine(), out raio);
 
                     // cria o objeto cilindro como tipo Cilindro
@@ -55,46 +55,136 @@ namespace exe01
 
                 // circulo
                 case 2:
+                    // inicio do escopo case 2
+
+                    // mensagem para o usuario inserir os dados necessarios
+                    Console.WriteLine("\n> Digite o raio do circulo");
+                    Double.TryParse(Console.ReadLine(), out raio);
+
+                    // cria o objeto circulo como tipo Circulo
+                    Circulo circulo = new Circulo (raio);
+
+                    // acessa os métodos públicos para calcular
+                    circulo.calculaArea();
+                    circulo.calculaPerimetro();
+
+                    // acessa os valores privados e retorna para o usuario
+                    Console.WriteLine("\nÁrea do seu Circulo: " + circulo.getArea() + " m");
+                    Console.WriteLine("Perimetro do seu Circulo: " + circulo.getPerimetro() + " m");
+
+                    // quebra a execução do bloco
                     break;
 
                 // elipse
                 case 3:
+                    // inicio do escopo case 3
+                    // mensagem para o usuario inserir os dados necessarios
+                    // cria o objeto elipse como tipo Elipse
+                    // acessa os métodos públicos para calcular
+                    // acessa os valores privados e retorna para o usuario
+                    // quebra a execução do bloco
                     break;
 
                 // esfera
                 case 4:
+                    // inicio do escopo case 4
+
+                    // mensagem para o usuario inserir os dados necessarios
+                    Console.WriteLine("\n> Digite o raio da Esfera");
+                    Double.TryParse(Console.ReadLine(), out raio);
+
+                    // cria o objeto esfera como tipo Esfera
+                    Esfera esfera = new Esfera (raio);
+
+                    // acessa os métodos públicos para calcular
+                    esfera.calculaArea();
+                    esfera.calculaVolume();
+
+                    // acessa os valores privados e retorna para o usuario
+                    Console.WriteLine("\nÁrea da sua Esfera: " + esfera.getArea() + " m");
+                    Console.WriteLine("Volume da sua Esfera: " + esfera.getVolume() + " m²");
+
+                    // quebra a execução do bloco                           
                     break;
 
                 // losango
                 case 5:
+                    // inicio do escopo case 5
+                    // mensagem para o usuario inserir os dados necessarios
+                    // cria o objeto losango como tipo Losango
+                    // acessa os métodos públicos para calcular
+                    // acessa os valores privados e retorna para o usuario
+                    // quebra a execução do bloco       
                     break;
 
                 // paralelogramo
                 case 6:
+                    // inicio do escopo case 6
+                    // mensagem para o usuario inserir os dados necessarios
+                    // cria o objeto paralelogramo como tipo Paralelogramo
+                    // acessa os métodos públicos para calcular
+                    // acessa os valores privados e retorna para o usuario
+                    // quebra a execução do bloco       
                     break;
 
                 // quadrado
                 case 7:
+                    // inicio do escopo case 7
+                    // mensagem para o usuario inserir os dados necessarios
+                    // cria o objeto quadrado como tipo Quadrado
+                    // acessa os métodos públicos para calcular
+                    // acessa os valores privados e retorna para o usuario
+                    // quebra a execução do bloco       
                     break;
 
                 // retangulo
                 case 8:
+                    // inicio do escopo case 8
+                    // mensagem para o usuario inserir os dados necessarios
+                    // cria o objeto retangulo como tipo Retangulo
+                    // acessa os métodos públicos para calcular
+                    // acessa os valores privados e retorna para o usuario
+                    // quebra a execução do bloco       
                     break;
 
                 // trapezio
                 case 9:
+                    // inicio do escopo case 9
+                    // mensagem para o usuario inserir os dados necessarios
+                    // cria o objeto trapezio como tipo Trapezio
+                    // acessa os métodos públicos para calcular
+                    // acessa os valores privados e retorna para o usuario
+                    // quebra a execução do bloco       
                     break;
 
                 // triangulo equilatero
                 case 10:
+                    // inicio do escopo case 10
+                    // mensagem para o usuario inserir os dados necessarios
+                    // cria o objeto triEquilatero como tipo TriEquilatero
+                    // acessa os métodos públicos para calcular
+                    // acessa os valores privados e retorna para o usuario
+                    // quebra a execução do bloco       
                     break;
 
                 // triangulo isosceles
                 case 11:
+                    // inicio do escopo case 11
+                    // mensagem para o usuario inserir os dados necessarios
+                    // cria o objeto triIsosceles como tipo TriIsosceles
+                    // acessa os métodos públicos para calcular
+                    // acessa os valores privados e retorna para o usuario
+                    // quebra a execução do bloco       
                     break;
 
                 // triangulo retangulo
                 case 12:
+                    // inicio do escopo case 12
+                    // mensagem para o usuario inserir os dados necessarios
+                    // cria o objeto triRetangulo como tipo TriRetangulo
+                    // acessa os métodos públicos para calcular
+                    // acessa os valores privados e retorna para o usuario
+                    // quebra a execução do bloco       
                     break;
             }
         }
@@ -150,7 +240,7 @@ namespace exe01
                 // caso não consiga "numOpcao" não muda de valor
                 Int32.TryParse(numEscolhido, out numOpcao);
 
-                if (numOpcao >= 1 && numOpcao <= 1)
+                if (numOpcao >= 1 && numOpcao <= 4)
                 // debug para os calculos já implementados
                 {
                     // caso verdade altera para false
