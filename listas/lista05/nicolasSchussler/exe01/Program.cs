@@ -18,6 +18,7 @@ namespace exe01
             int escolha = leOpcao();
             double altura = 0;
             double raio = 0;
+            double valorBase =0;
             double diagonalMenor = 0;
             double diagonalMaior = 0;
             double profundidade = 0;
@@ -84,7 +85,7 @@ namespace exe01
                     // mensagem para o usuario inserir os dados necessarios
                     // cria o objeto elipse como tipo Elipse
                     // acessa os métodos públicos para calcular
-                    // acessa os valores privados e retorna para o usuario
+                    // acessa os valores privados e retorna para o usuario 
                     // quebra a execução do bloco
                     break;
 
@@ -100,7 +101,7 @@ namespace exe01
                     Esfera esfera = new Esfera (raio);
 
                     // acessa os métodos públicos para calcular
-                    esfera.calculaArea();
+                    esfera.calculaArea(); 
                     esfera.calculaVolume();
 
                     // acessa os valores privados e retorna para o usuario
@@ -118,7 +119,7 @@ namespace exe01
                     Console.WriteLine("\n> Digite a diagonal menor do Losango");
                     Double.TryParse(Console.ReadLine(), out diagonalMenor);
 
-                    Console.WriteLine("\n> Digite a diagonal maior do Losango");
+                    Console.WriteLine("\n> Digite a diagonal maior do Losango" );
                     Double.TryParse(Console.ReadLine(), out diagonalMaior);
 
                     Console.WriteLine("\n> Digite a profundidade do Losango");
@@ -143,11 +144,30 @@ namespace exe01
                 // paralelogramo
                 case 6:
                     // inicio do escopo case 6
-                    
+
                     // mensagem para o usuario inserir os dados necessarios
+                    Console.WriteLine("\n> Digite a altura do seu Paralelogramo: ");
+                    Double.TryParse(Console.ReadLine(), out altura);
+
+                    Console.WriteLine("\n> Digite a base do seu Paralelogramo: ");
+                    Double.TryParse(Console.ReadLine(), out valorBase);
+
+                    Console.WriteLine("\n> Digite a profundidade do seu Paralelogramo: ");
+                    Double.TryParse(Console.ReadLine(), out profundidade);
+
                     // cria o objeto paralelogramo como tipo Paralelogramo
+                    Paralelogramo paralelogramo = new Paralelogramo (altura, valorBase, profundidade);
+
                     // acessa os métodos públicos para calcular
+                    paralelogramo.calculaArea();
+                    paralelogramo.calculaVolume();
+                    paralelogramo.calculaPerimetro();
+
                     // acessa os valores privados e retorna para o usuario
+                    Console.WriteLine("\nÁrea do seu Paralelogramo: " + paralelogramo.getArea() + " m²");
+                    Console.WriteLine("Volume do seu Paralelogramo: " + paralelogramo.getVolume() + " m³");
+                    Console.WriteLine("Perimetro do seu Paralelogramo: " + paralelogramo.getPerimetro() + " m");                    
+
                     // quebra a execução do bloco       
                     break;
 

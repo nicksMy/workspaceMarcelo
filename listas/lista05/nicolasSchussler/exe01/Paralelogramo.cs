@@ -5,40 +5,40 @@ using System;
 namespace exe01
 // inicio de escopo do namespace
 {
-    public class Losango
+    public class Paralelogramo
     // início escopo da classe
     {
         // estados   
         // variaveis de instância
-        private double diagonalMenor;
-        private double diagonalMaior;
+        private double altura;
+        private double valorBase;
         private double profundidade;
         private double area;
         private double volume;
-        private double perimetroBase;
+        private double perimetro;
 
         // comportamento / métodos
-        public Losango (double dMenor, double dMaior, double prof)
+        public Paralelogramo (double h, double b, double prof)
         // construtor
         {
-            diagonalMenor = dMenor;
-            diagonalMaior = dMaior;
+            altura = h;
+            valorBase = b;
             profundidade = prof;
         }
         public void calculaArea ()
         // procedimento para calcular a area
         {
-            area = (diagonalMenor * diagonalMaior) / 2;
+            area = altura * valorBase;
         }
         public void calculaVolume ()
         // procedimento para calcular o volume
         {
-            volume = ((diagonalMenor * diagonalMaior) / 2) * profundidade;
+            volume = altura * valorBase * profundidade;
         }
-        public void calculaPerimetroBase ()
+        public void calculaPerimetro ()
         // procedimento para calcular o perimetro
         {
-            perimetroBase = 4 * diagonalMenor;
+            perimetro = 2 * altura + 2 * valorBase;
         }
         public double getArea ()
         // função para retornar o valor da area
@@ -50,10 +50,10 @@ namespace exe01
         {
             return volume;
         }
-        public double getPerimetroBase ()
-        // função para retornar o valor do perimetro da base
+        public double getPerimetro ()
+        // função para retornar o valor do perimetro
         {
-            return perimetroBase;
+            return perimetro;
         }
     }
 }
