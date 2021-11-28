@@ -18,6 +18,9 @@ namespace exe01
             int escolha = leOpcao();
             double altura = 0;
             double raio = 0;
+            double diagonalMenor = 0;
+            double diagonalMaior = 0;
+            double profundidade = 0;
 
             // calculos de acordo com a opção
             switch (escolha)
@@ -69,7 +72,7 @@ namespace exe01
                     circulo.calculaPerimetro();
 
                     // acessa os valores privados e retorna para o usuario
-                    Console.WriteLine("\nÁrea do seu Circulo: " + circulo.getArea() + " m");
+                    Console.WriteLine("\nÁrea do seu Circulo: " + circulo.getArea() + " m²");
                     Console.WriteLine("Perimetro do seu Circulo: " + circulo.getPerimetro() + " m");
 
                     // quebra a execução do bloco
@@ -101,8 +104,8 @@ namespace exe01
                     esfera.calculaVolume();
 
                     // acessa os valores privados e retorna para o usuario
-                    Console.WriteLine("\nÁrea da sua Esfera: " + esfera.getArea() + " m");
-                    Console.WriteLine("Volume da sua Esfera: " + esfera.getVolume() + " m²");
+                    Console.WriteLine("\nÁrea da sua Esfera: " + esfera.getArea() + " m²");
+                    Console.WriteLine("Volume da sua Esfera: " + esfera.getVolume() + " m³");
 
                     // quebra a execução do bloco                           
                     break;
@@ -110,16 +113,37 @@ namespace exe01
                 // losango
                 case 5:
                     // inicio do escopo case 5
+
                     // mensagem para o usuario inserir os dados necessarios
+                    Console.WriteLine("\n> Digite a diagonal menor do Losango");
+                    Double.TryParse(Console.ReadLine(), out diagonalMenor);
+
+                    Console.WriteLine("\n> Digite a diagonal maior do Losango");
+                    Double.TryParse(Console.ReadLine(), out diagonalMaior);
+
+                    Console.WriteLine("\n> Digite a profundidade do Losango");
+                    Double.TryParse(Console.ReadLine(), out profundidade);
+
                     // cria o objeto losango como tipo Losango
+                    Losango losango = new Losango (diagonalMenor, diagonalMaior, profundidade);
+
                     // acessa os métodos públicos para calcular
+                    losango.calculaArea();
+                    losango.calculaVolume();
+                    losango.calculaPerimetroBase();
+
                     // acessa os valores privados e retorna para o usuario
+                    Console.WriteLine("\nÁrea do seu Losango: " + losango.getArea() + " m²");
+                    Console.WriteLine("Volume do seu Losango: " + losango.getVolume() + " m³");
+                    Console.WriteLine("Perimetro da base do seu Losango: " + losango.getPerimetroBase() + " m");
+
                     // quebra a execução do bloco       
                     break;
 
                 // paralelogramo
                 case 6:
                     // inicio do escopo case 6
+                    
                     // mensagem para o usuario inserir os dados necessarios
                     // cria o objeto paralelogramo como tipo Paralelogramo
                     // acessa os métodos públicos para calcular
@@ -240,7 +264,7 @@ namespace exe01
                 // caso não consiga "numOpcao" não muda de valor
                 Int32.TryParse(numEscolhido, out numOpcao);
 
-                if (numOpcao >= 1 && numOpcao <= 4)
+                if (numOpcao >= 1 && numOpcao <= 12)
                 // debug para os calculos já implementados
                 {
                     // caso verdade altera para false
