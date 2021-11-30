@@ -174,20 +174,46 @@ namespace exe01
                 // quadrado
                 case 7:
                     // inicio do escopo case 7
+
                     // mensagem para o usuario inserir os dados necessarios
+                    Console.WriteLine("\n> Digite a altura do seu quadrado: ");
+                    Double.TryParse(Console.ReadLine(), out altura);
+
+                    Console.WriteLine("\n> Digite a base do seu quadrado: ");
+                    Double.TryParse(Console.ReadLine(), out valorBase);
+
+                    Console.WriteLine("\n> Digite a profundidade do seu quadrado: ");
+                    Double.TryParse(Console.ReadLine(), out profundidade);
+
                     // cria o objeto quadrado como tipo Quadrado
+                    Quadrado quadrado = new Quadrado (altura, valorBase, profundidade);
+
                     // acessa os métodos públicos para calcular
+                    quadrado.calculaArea();
+                    quadrado.calculaVolume();
+                    quadrado.calculaPerimetro();
+
                     // acessa os valores privados e retorna para o usuario
+
+                    Console.WriteLine("\nÁrea do seu Quadrado: " + quadrado.getArea() + " m²");
+                    Console.WriteLine("Volume do seu Quadrado: " + quadrado.getVolume() + " m³");
+                    Console.WriteLine("Perimetro do seu Quadrado: " + quadrado.getPerimetro() + " m");
+
                     // quebra a execução do bloco       
                     break;
 
                 // retangulo
                 case 8:
                     // inicio do escopo case 8
+
                     // mensagem para o usuario inserir os dados necessarios
+
                     // cria o objeto retangulo como tipo Retangulo
+
                     // acessa os métodos públicos para calcular
+
                     // acessa os valores privados e retorna para o usuario
+                    
                     // quebra a execução do bloco       
                     break;
 
