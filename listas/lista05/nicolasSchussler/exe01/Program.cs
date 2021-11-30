@@ -176,13 +176,13 @@ namespace exe01
                     // inicio do escopo case 7
 
                     // mensagem para o usuario inserir os dados necessarios
-                    Console.WriteLine("\n> Digite a altura do seu quadrado: ");
+                    Console.WriteLine("\n> Digite a altura do seu Quadrado: ");
                     Double.TryParse(Console.ReadLine(), out altura);
 
-                    Console.WriteLine("\n> Digite a base do seu quadrado: ");
+                    Console.WriteLine("\n> Digite a base do seu Quadrado: ");
                     Double.TryParse(Console.ReadLine(), out valorBase);
 
-                    Console.WriteLine("\n> Digite a profundidade do seu quadrado: ");
+                    Console.WriteLine("\n> Digite a profundidade do seu Quadrado: ");
                     Double.TryParse(Console.ReadLine(), out profundidade);
 
                     // cria o objeto quadrado como tipo Quadrado
@@ -194,7 +194,6 @@ namespace exe01
                     quadrado.calculaPerimetro();
 
                     // acessa os valores privados e retorna para o usuario
-
                     Console.WriteLine("\nÁrea do seu Quadrado: " + quadrado.getArea() + " m²");
                     Console.WriteLine("Volume do seu Quadrado: " + quadrado.getVolume() + " m³");
                     Console.WriteLine("Perimetro do seu Quadrado: " + quadrado.getPerimetro() + " m");
@@ -207,13 +206,27 @@ namespace exe01
                     // inicio do escopo case 8
 
                     // mensagem para o usuario inserir os dados necessarios
+                    Console.WriteLine("\n> Digite a altura do seu Retângulo: ");
+                    Double.TryParse(Console.ReadLine(), out altura);
 
+                    Console.WriteLine("\n> Digite a base do seu Retângulo: ");
+                    Double.TryParse(Console.ReadLine(), out valorBase);
+
+                    Console.WriteLine("\n> Digite a profundidade do seu Retângulo: ");
+                    Double.TryParse(Console.ReadLine(), out profundidade);
                     // cria o objeto retangulo como tipo Retangulo
+                    Retangulo retangulo = new Retangulo (altura, valorBase, profundidade);
 
                     // acessa os métodos públicos para calcular
+                    retangulo.calculaArea();
+                    retangulo.calculaVolume();
+                    retangulo.calculaPerimetro();
 
                     // acessa os valores privados e retorna para o usuario
-                    
+                    Console.WriteLine("\nÁrea do seu Retângulo: " + retangulo.getArea() + " m²");
+                    Console.WriteLine("Volume do seu Retângulo: " + retangulo.getVolume() + " m³");
+                    Console.WriteLine("Perimetro do seu Retângulo: " + retangulo.getPerimetro() + " m");
+
                     // quebra a execução do bloco       
                     break;
 
