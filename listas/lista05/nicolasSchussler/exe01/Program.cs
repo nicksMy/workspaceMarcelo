@@ -18,7 +18,9 @@ namespace exe01
             int escolha = leOpcao();
             double altura = 0;
             double raio = 0;
-            double valorBase =0;
+            double valorBase = 0;
+            double valorBaseMaior = 0;
+            double valorBaseMenor = 0;
             double diagonalMenor = 0;
             double diagonalMaior = 0;
             double profundidade = 0;
@@ -233,10 +235,31 @@ namespace exe01
                 // trapezio
                 case 9:
                     // inicio do escopo case 9
+    
                     // mensagem para o usuario inserir os dados necessarios
+                    Console.WriteLine("\n> Digite a altura do seu Trapézio: ");
+                    Double.TryParse(Console.ReadLine(), out altura);
+
+                    Console.WriteLine("\n> Digite a base maior do seu Trapézio: ");
+                    Double.TryParse(Console.ReadLine(), out valorBaseMaior);
+
+                    Console.WriteLine("\n> Digite a base menor do seu Trapézio: ");
+                    Double.TryParse(Console.ReadLine(), out valorBaseMenor);
+
+                    Console.WriteLine("\n> Digite a profundidade do seu Trapézio: ");
+                    Double.TryParse(Console.ReadLine(), out profundidade);
+
                     // cria o objeto trapezio como tipo Trapezio
+                    Trapezio trapezio = new Trapezio (altura, valorBaseMaior, valorBaseMenor, profundidade);
+
                     // acessa os métodos públicos para calcular
+                    trapezio.calculaArea();
+                    trapezio.calculaVolume();
+
                     // acessa os valores privados e retorna para o usuario
+                    Console.WriteLine("\nÁrea do seu Trapézio: " + trapezio.getArea() + " m²");
+                    Console.WriteLine("Volume do seu Trapézio: " + trapezio.getVolume() + " m³");
+
                     // quebra a execução do bloco       
                     break;
 
