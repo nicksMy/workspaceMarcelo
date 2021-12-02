@@ -266,30 +266,57 @@ namespace exe01
                 // triangulo equilatero
                 case 10:
                     // inicio do escopo case 10
+
                     // mensagem para o usuario inserir os dados necessarios
+                    Console.WriteLine("\n> Digite a altura do seu Triângulo Equilátero: ");
+                    Double.TryParse(Console.ReadLine(), out altura);
+
+                    Console.WriteLine("\n> Digite a profundidade do seu Triângulo Equilátero: ");
+                    Double.TryParse(Console.ReadLine(), out profundidade);
+
                     // cria o objeto triEquilatero como tipo TriEquilatero
+                    TriEquilatero triEquilatero = new TriEquilatero (altura, profundidade);
+
                     // acessa os métodos públicos para calcular
+                    triEquilatero.calculaArea();
+                    triEquilatero.calculaVolume();
+                    triEquilatero.calculaPerimetro();
+
                     // acessa os valores privados e retorna para o usuario
+                    Console.WriteLine("\nÁrea do seu Triângulo Equilátero: " + triEquilatero.getArea() + " m²");
+                    Console.WriteLine("Volume do seu Triângulo Equilátero: " + triEquilatero.getVolume() + " m³");
+                    Console.WriteLine("Perimetro do seu Triângulo Equilátero: " + triEquilatero.getPerimetro() + " m");
+
                     // quebra a execução do bloco       
                     break;
 
                 // triangulo isosceles
                 case 11:
                     // inicio do escopo case 11
+
                     // mensagem para o usuario inserir os dados necessarios
+
                     // cria o objeto triIsosceles como tipo TriIsosceles
+
                     // acessa os métodos públicos para calcular
+
                     // acessa os valores privados e retorna para o usuario
+
                     // quebra a execução do bloco       
                     break;
 
                 // triangulo retangulo
                 case 12:
                     // inicio do escopo case 12
+
                     // mensagem para o usuario inserir os dados necessarios
+
                     // cria o objeto triRetangulo como tipo TriRetangulo
+
                     // acessa os métodos públicos para calcular
+
                     // acessa os valores privados e retorna para o usuario
+
                     // quebra a execução do bloco       
                     break;
             }

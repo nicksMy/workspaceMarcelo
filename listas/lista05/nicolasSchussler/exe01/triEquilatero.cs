@@ -5,37 +5,38 @@ using System;
 namespace exe01
 // inicio de escopo do namespace
 {
-    public class Trapezio
+    public class TriEquilatero
     // início escopo da classe
     {
         // estados   
         // variaveis de instância
         private double area;
         private double volume;
+        private double perimetro;
         private double altura;
-        private double valorBaseMaior;
-        private double valorBaseMenor;
         private double profundidade;
 
         // comportamento / métodos
-        public Trapezio (double h, double bMaior, double bMenor, double prof)
+        public TriEquilatero (double h, double prof)
         // construtor
         {
             altura = h;
-            valorBaseMaior = bMaior;
-            valorBaseMenor = bMenor;
             profundidade = prof;
         }
         public void calculaArea ()
         // procedimento para calcular a area
         {
-            area = ((valorBaseMaior + valorBaseMenor) * altura) / 2;
+            area = Math.Pow(altura, 2) / Math.Sqrt(3);
         }
         public void calculaVolume ()
         // procedimento para calcular o volume
         {
-            // (((b+c)a)/2)d(c+b)/2
-            volume = ((((valorBaseMaior + valorBaseMenor) * altura) / 2) * profundidade * (valorBaseMenor + valorBaseMaior)) / 2;
+            volume = (Math.Pow(altura, 2) / 3) * profundidade;
+        }
+        public void calculaPerimetro ()
+        // procedimento para calcular o perimetro
+        {
+            perimetro = 3 * (2 * altura) / Math.Sqrt(3);
         }
         public double getArea ()
         // função para retornar o valor da area
@@ -46,6 +47,11 @@ namespace exe01
         // função para retornar o valor do volume
         {
             return volume;
+        }
+        public double getPerimetro ()
+        // função para retornar o valor do perimetro
+        {
+            return perimetro;
         }
     }
 }
