@@ -295,12 +295,27 @@ namespace exe01
                     // inicio do escopo case 11
 
                     // mensagem para o usuario inserir os dados necessarios
+                    Console.WriteLine("\n> Digite a altura do seu Triângulo Isosceles: ");
+                    Double.TryParse(Console.ReadLine(), out altura);
+
+                    Console.WriteLine("\n> Digite a base do seu Triângulo Isosceles: ");
+                    Double.TryParse(Console.ReadLine(), out valorBase);
+
+                    Console.WriteLine("\n> Digite a profundidade do seu Trrângulo Isosceles: ");
+                    Double.TryParse(Console.ReadLine(), out profundidade);
 
                     // cria o objeto triIsosceles como tipo TriIsosceles
+                    TriIsosceles triIsosceles = new TriIsosceles (altura, valorBase, profundidade);
 
                     // acessa os métodos públicos para calcular
+                    triIsosceles.calculaArea();
+                    triIsosceles.calculaVolume();
+                    triIsosceles.calculaPerimetro();
 
                     // acessa os valores privados e retorna para o usuario
+                    Console.WriteLine("\nÁrea do seu Triângulo Isosceles: " + triIsosceles.getArea() + " m²");
+                    Console.WriteLine("Volume do seu Triângulo Isosceles: " + triIsosceles.getVolume() + " m³");
+                    Console.WriteLine("Perimetro do seu Triângulo Isosceles: " + triIsosceles.getPerimetro() + " m");
 
                     // quebra a execução do bloco       
                     break;
