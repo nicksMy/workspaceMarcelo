@@ -325,18 +325,32 @@ namespace exe01
                     // inicio do escopo case 12
 
                     // mensagem para o usuario inserir os dados necessarios
+                    Console.WriteLine("\n> Digite a altura do seu Triângulo Retângulo: ");
+                    Double.TryParse(Console.ReadLine(), out altura);
+
+                    Console.WriteLine("\n> Digite a base do seu Triângulo Retângulo: ");
+                    Double.TryParse(Console.ReadLine(), out valorBase);
+
+                    Console.WriteLine("\n> Digite a profundidade do seu Trrângulo Retângulo: ");
+                    Double.TryParse(Console.ReadLine(), out profundidade);
 
                     // cria o objeto triRetangulo como tipo TriRetangulo
+                    TriRetangulo triRetangulo = new TriRetangulo (altura, valorBase, profundidade);
 
                     // acessa os métodos públicos para calcular
+                    triRetangulo.calculaArea();
+                    triRetangulo.calculaVolume();
+                    triRetangulo.calculaPerimetro();
 
                     // acessa os valores privados e retorna para o usuario
+                    Console.WriteLine("\nÁrea do seu Triângulo Retângulo: " + triRetangulo.getArea() + " m²"); 
+                    Console.WriteLine("Volume do seu Triângulo Retângulo:" + triRetangulo.getVolume() + " m³");
+                    Console.WriteLine("Perimetro do seu Triângulo Retângulo: " + triRetangulo.getPerimetro() + " m");
 
                     // quebra a execução do bloco       
                     break;
             }
         }
-
         static void menu()
         // procedimento para exibir opções de calculos e seus números correspondentes
 
