@@ -10,11 +10,11 @@
         "projectUniqueName": "/home/nicks/Documentos/workspace/workspaceMarcelo/listas/lista05/nicolasSchussler/exe01/exe01.csproj",
         "projectName": "exe01",
         "projectPath": "/home/nicks/Documentos/workspace/workspaceMarcelo/listas/lista05/nicolasSchussler/exe01/exe01.csproj",
-        "packagesPath": "/root/.nuget/packages/",
+        "packagesPath": "/home/nicks/.nuget/packages/",
         "outputPath": "/home/nicks/Documentos/workspace/workspaceMarcelo/listas/lista05/nicolasSchussler/exe01/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/root/.nuget/NuGet/NuGet.Config"
+          "/home/nicks/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
